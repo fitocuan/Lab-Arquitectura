@@ -1,0 +1,6 @@
+[Inputs]
+=A_Adder[31:0]=
+=B_Adder[31:0]=
+[Outputs]
+=C_Adder[31:0]=
+[BiDir]

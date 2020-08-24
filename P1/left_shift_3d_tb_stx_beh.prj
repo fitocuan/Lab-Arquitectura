@@ -1,0 +1,2 @@
+vhdl isim_temp "shift_left_32b.vhd"
+vhdl isim_temp "left_shift_3d_tb.vhd"

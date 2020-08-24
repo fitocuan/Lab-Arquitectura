@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH.syr" 

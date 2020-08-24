@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH_isim_beh.exe" -prj "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH_beh.prj" "work.SHIFTLEFT_TESTBENCH" 

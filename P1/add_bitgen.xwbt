@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\lab-repo\P1\add.ncd
+OUTFILE=Z:\lab-repo\P1\add.bit
+FAMILY=Spartan6
+PART=xc6slx25-3csg324
+WORKINGDIR=Z:\lab-repo\P1
+LICENSE=WebPack
+USER_INFO=211463621_0_0_117

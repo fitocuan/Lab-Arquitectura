@@ -51,7 +51,7 @@ ARCHITECTURE behavior OF SHIFTLEFT_TESTBENCH IS
    signal shift_left_in : std_logic_vector(25 downto 0) := (others => '0');
 
  	--Outputs
-   signal shift_left_out : std_logic_vector(27 downto 0);
+   signal shift_left_out : std_logic_vector(27 downto 0) ;
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  

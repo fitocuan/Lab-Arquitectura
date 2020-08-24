@@ -1,0 +1,29 @@
+Command line:
+   SHIFTLEFT_TESTBENCH_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1031
+
+Mon Aug 24 14:45:01 2020
+
+
+ Elaboration Time: 0.090129 sec
+
+ Current Memory Usage: 484.458 Meg
+
+ Total Signals          : 4
+ Total Nets             : 54
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 537
+Total Line Count : 10
+
+ Total Simulation Time: 0.100144 sec
+
+ Current Memory Usage: 327.172 Meg
+
+Mon Aug 24 14:45:36 2020
+

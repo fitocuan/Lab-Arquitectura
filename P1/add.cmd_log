@@ -1,0 +1,83 @@
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+netgen -intstyle ise -ar Structure -tm add -w -dir netgen/synthesis -ofmt vhdl -sim add.ngc add_synthesis.vhd 
+vhdtdtfi -lib work add.vhd -prj P1 -o add.spl -module add -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 add.spl C:/PROJECTS/P1/add.sym 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+netgen -intstyle ise -ar Structure -tm add -w -dir netgen/synthesis -ofmt vhdl -sim add.ngc add_synthesis.vhd 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/add.xst" -ofn "C:/PROJECTS/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 
+netgen -intstyle ise -ar Structure -tm add -w -dir netgen/synthesis -ofmt vhdl -sim add.ngc add_synthesis.vhd 
+vhdtdtfi -lib work add.vhd -prj P1 -o add.spl -module add -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 add.spl C:/PROJECTS/P1/add.sym 
+xst -intstyle ise -ifn "Z:/lab-repo/P1/add.xst" -ofn "Z:/lab-repo/P1/add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-csg324-3 add.ngc add.ngd  
+map -intstyle ise -p xc6slx25-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o add_map.ncd add.ngd add.pcf 
+par -w -intstyle ise -ol high -mt off add_map.ncd add.ncd add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml add.twx add.ncd -o add.twr add.pcf 
+bitgen -intstyle ise -f add.ut add.ncd 

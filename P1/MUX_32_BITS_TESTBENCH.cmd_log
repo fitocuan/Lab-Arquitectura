@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.syr" 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.syr" 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.syr" 
+netgen -intstyle ise -ar Structure -tm MUX_32_BITS_TESTBENCH -w -dir netgen/synthesis -ofmt vhdl -sim MUX_32_BITS_TESTBENCH.ngc MUX_32_BITS_TESTBENCH_synthesis.vhd 
+vhdtdtfi -lib work {Z:/lab-repo/Practica 1/MUX_32_BITS_TESTBENCH.vhd} -prj P1 -o MUX_32_BITS_TESTBENCH.spl -module MUX_32_BITS_TESTBENCH -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 MUX_32_BITS_TESTBENCH.spl C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.sym 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.syr" 
+xst -intstyle ise -ifn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.xst" -ofn "C:/PROJECTS/P1/MUX_32_BITS_TESTBENCH.syr" 
