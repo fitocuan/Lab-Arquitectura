@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\lab-repo\P2\ALU.ncd
+OUTFILE=Z:\lab-repo\P2\ALU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=Z:\lab-repo\P2
+LICENSE=WebPack
+USER_INFO=211463621_0_0_117

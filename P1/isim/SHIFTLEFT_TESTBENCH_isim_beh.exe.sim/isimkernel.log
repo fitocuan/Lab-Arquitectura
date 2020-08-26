@@ -2,12 +2,12 @@ Command line:
    SHIFTLEFT_TESTBENCH_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1031
+     -socket  1048
 
-Mon Aug 24 14:45:01 2020
+Mon Aug 24 19:55:34 2020
 
 
- Elaboration Time: 0.090129 sec
+ Elaboration Time: 0.030043 sec
 
  Current Memory Usage: 484.458 Meg
 
@@ -21,9 +21,9 @@ Mon Aug 24 14:45:01 2020
  Total Scalar Nets and Variables : 537
 Total Line Count : 10
 
- Total Simulation Time: 0.100144 sec
+ Total Simulation Time: 0.040058 sec
 
  Current Memory Usage: 327.172 Meg
 
-Mon Aug 24 14:45:36 2020
+Mon Aug 24 19:55:53 2020
 

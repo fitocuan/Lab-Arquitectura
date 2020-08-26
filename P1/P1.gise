@@ -38,6 +38,8 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX_32_BITS_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MUX_32_BITS_TESTBENCH_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MUX_32_BITS_TESTBENCH_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MUX_5_BITS_TESTBENCH_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX_5_BITS_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PROGRAM_COUNTER.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PROGRAM_COUNTER.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="PROGRAM_COUNTER.xst"/>
@@ -51,9 +53,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SHIFTLEFT_TESTBENCH.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SHIFTLEFT_TESTBENCH.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SHIFTLEFT_TESTBENCH.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SHIFTLEFT_TESTBENCH_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SHIFTLEFT_TESTBENCH_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SHIFTLEFT_TESTBENCH_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SHIFTLEFT_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SHIFTLEFT_TESTBENCH_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SHIFTLEFT_TESTBENCH_xst.xrpt"/>
@@ -146,7 +146,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1598298292" xil_pn:in_ck="-5664312899104734981" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1598298292">
+    <transform xil_pn:end_ts="1598456555" xil_pn:in_ck="413100652136096963" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1598456555">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../Practica 1/MUX_32_BITS.vhd"/>
@@ -164,11 +164,11 @@
       <outfile xil_pn:name="sign_extender.vhd"/>
       <outfile xil_pn:name="sign_extender_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1598296549" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-602323042610921378" xil_pn:start_ts="1598296549">
+    <transform xil_pn:end_ts="1598458311" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3694855043401139142" xil_pn:start_ts="1598458311">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1598296549" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2799478095535608028" xil_pn:start_ts="1598296549">
+    <transform xil_pn:end_ts="1598458311" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8953018442335238984" xil_pn:start_ts="1598458311">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -176,7 +176,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1598298294" xil_pn:in_ck="-5664312899104734981" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1598298294">
+    <transform xil_pn:end_ts="1598456555" xil_pn:in_ck="413100652136096963" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1598456555">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../Practica 1/MUX_32_BITS.vhd"/>
@@ -194,28 +194,29 @@
       <outfile xil_pn:name="sign_extender.vhd"/>
       <outfile xil_pn:name="sign_extender_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1598298299" xil_pn:in_ck="-5664312899104734981" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2746999720014094948" xil_pn:start_ts="1598298294">
+    <transform xil_pn:end_ts="1598458314" xil_pn:in_ck="413100652136096963" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1811663551425173972" xil_pn:start_ts="1598458311">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SHIFTLEFT_TESTBENCH_beh.prj"/>
-      <outfile xil_pn:name="SHIFTLEFT_TESTBENCH_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sign_extender_tb_beh.prj"/>
+      <outfile xil_pn:name="sign_extender_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1598298299" xil_pn:in_ck="-5063756827064831617" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3478544622900201161" xil_pn:start_ts="1598298299">
+    <transform xil_pn:end_ts="1598458314" xil_pn:in_ck="1111100876671210124" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8610498888070085663" xil_pn:start_ts="1598458314">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SHIFTLEFT_TESTBENCH_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sign_extender_tb_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1598298498" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1598298498">
       <status xil_pn:value="SuccessfullyRun"/>

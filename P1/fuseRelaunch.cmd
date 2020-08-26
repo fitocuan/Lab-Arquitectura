@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH_isim_beh.exe" -prj "C:/PROJECTS/P1/SHIFTLEFT_TESTBENCH_beh.prj" "work.SHIFTLEFT_TESTBENCH" 
+-intstyle "ise" -incremental -lib "secureip" -o "Z:/lab-repo/P1/sign_extender_tb_isim_beh.exe" -prj "Z:/lab-repo/P1/sign_extender_tb_beh.prj" "work.sign_extender_tb" 

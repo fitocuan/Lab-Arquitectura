@@ -1,0 +1,29 @@
+Command line:
+   left_shift_3d_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1045
+
+Wed Aug 26 11:08:27 2020
+
+
+ Elaboration Time: 0.020028 sec
+
+ Current Memory Usage: 484.536 Meg
+
+ Total Signals          : 5
+ Total Nets             : 98
+ Total Signal Drivers   : 3
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 599
+Total Line Count : 3
+
+ Total Simulation Time: 0.030043 sec
+
+ Current Memory Usage: 327.25 Meg
+
+Wed Aug 26 11:11:48 2020
+

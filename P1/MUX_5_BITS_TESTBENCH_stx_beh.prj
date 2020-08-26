@@ -1,0 +1,2 @@
+vhdl isim_temp "../Practica 1/MUX_5_BITS.vhd"
+vhdl isim_temp "../Practica 1/MUX_5_BITS_TESTBENCH.vhd"
