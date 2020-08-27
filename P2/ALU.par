@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-TEC::  Wed Aug 26 16:53:12 2020
+TEC::  Thu Aug 27 11:43:43 2020
 
 par -w -intstyle ise -ol high -mt off ALU_map.ncd ALU.ncd ALU.pcf 
 
@@ -93,7 +93,7 @@ Phase  2  : 358 unrouted;      REAL time: 2 secs
 
 Phase  3  : 264 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 264 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  4  : 264 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Updating file: ALU.ncd with current fully routed design.
 
@@ -109,7 +109,7 @@ Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4
 
 Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 Total REAL time to Router completion: 4 secs 
-Total CPU time to Router completion: 4 secs 
+Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status
 -------------------------------

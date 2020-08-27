@@ -44,7 +44,7 @@ signal aux_result : STD_LOGIC_VECTOR (31 downto 0);
 
 begin
 
-	process is
+	process(ALU_CNTRL,ALU_A,ALU_B,aux_result) is
 	begin
 
 		case ALU_CNTRL is
@@ -66,7 +66,7 @@ begin
 		end if;
 		
 		ALU_RESULT <= aux_result;
-
+		
 	end process;
 	
 

@@ -10,4 +10,4 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-Stopped at time : 0 fs : File "//VBoxSvr/TE2031/lab-repo/P2/ALU.vhd" Line 68
+Finished circuit initialization process.
