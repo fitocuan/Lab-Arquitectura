@@ -41,34 +41,28 @@ end ALU;
 architecture Behavioral of ALU is
 
 signal aux_result : STD_LOGIC_VECTOR (31 downto 0);
+signal set_less_than_aux : STD_LOGIC_VECTOR (31 downto 0);
 
 begin
-
-	process(ALU_CNTRL,ALU_A,ALU_B,aux_result) is
-	begin
-
-		case ALU_CNTRL is
-			when "000" =>
-				aux_result <= ALU_A and ALU_B;
-			when "001" =>
-				aux_result <= ALU_A or ALU_B;
-			when "010" =>
-				aux_result <= ALU_A + ALU_B;
-				
-			when others => --esto lo puse porque no me dejaba compilar sin la opcion others
-				aux_result <= ALU_A;
-		end case;
 		
-		if (aux_result = "0000000000000000000000000000000000000000") then
-			ALU_ZERO <= '1';
-		else
-			ALU_ZERO <= '0';
-		end if;
+		with ALU_A < ALU_B select
+		set_less_than_aux <= x"00000001" when True,
+									x"00000000" when False;
+		
+		with ALU_CNTRL select
+			aux_result <= ALU_A and ALU_B when "000",
+			ALU_A or ALU_B when "001",
+			ALU_A + ALU_B when "010",
+			ALU_A when "011",
+			ALU_B(15 downto 0)& x"0000" when "100",
+			ALU_A - ALU_B when "110",
+			set_less_than_aux when others;
+			
+		with aux_result select
+			ALU_ZERO <= '1' when x"00000000",
+			'0' when others;
 		
 		ALU_RESULT <= aux_result;
-		
-	end process;
-	
 
 
 end Behavioral;
