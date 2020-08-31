@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/lab-repo/P1/sign_extender.xst" -ofn "Z:/lab-repo/P1/sign_extender.syr" 

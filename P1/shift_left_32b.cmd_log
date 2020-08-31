@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/lab-repo/P1/shift_left_32b.xst" -ofn "Z:/lab-repo/P1/shift_left_32b.syr" 

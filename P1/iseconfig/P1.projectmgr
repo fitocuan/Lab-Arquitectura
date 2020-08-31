@@ -13,13 +13,13 @@
          <ClosedNode>/SHIFTLEFT_TESTBENCH - behavior ||vboxsvr|te2031|lab-repo|Practica 1|SHIFTLEFT_TESTBENCH.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>MUX_32_BITS - Behavioral (Z:/lab-repo/Practica 1/MUX_32_BITS.vhd)</SelectedItem>
+         <SelectedItem>sign_extender - Behavioral (Z:/lab-repo/P1/sign_extender.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a4000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a40000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>MUX_32_BITS - Behavioral (Z:/lab-repo/Practica 1/MUX_32_BITS.vhd)</CurrentItem>
+      <CurrentItem>sign_extender - Behavioral (Z:/lab-repo/P1/sign_extender.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -27,13 +27,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000139000000010000000100000000000000000000000064ffffffff000000810000000000000001000001390000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -66,19 +66,18 @@
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000001340000008b01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff0000000000000002000000bf0000010001000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -92,7 +91,6 @@
          <ClosedNode>/SHIFTLEFT_TESTBENCH - behavior Z:|lab-repo|Practica 1|SHIFTLEFT_TESTBENCH.vhd</ClosedNode>
          <ClosedNode>/SHIFTLEFT_TESTBENCH - behavior ||vboxsvr|te2031|lab-repo|Practica 1|SHIFTLEFT_TESTBENCH.vhd</ClosedNode>
          <ClosedNode>/add_tb - behavior C:|PROJECTS|P1|add_tb.vhd</ClosedNode>
-         <ClosedNode>/add_tb - behavior Z:|lab-repo|P1|add_tb.vhd</ClosedNode>
          <ClosedNode>/adder_tb - behavior C:|PROJECTS|P1|adder_tb.vhd</ClosedNode>
          <ClosedNode>/left_shift_3d_tb - behavior C:|PROJECTS|P1|left_shift_3d_tb.vhd</ClosedNode>
          <ClosedNode>/left_shift_3d_tb - behavior Z:|lab-repo|P1|left_shift_3d_tb.vhd</ClosedNode>
@@ -101,13 +99,13 @@
          <ClosedNode>/sign_extender_tb - behavior Z:|lab-repo|P1|sign_extender_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>sign_extender_tb - behavior (Z:/lab-repo/P1/sign_extender_tb.vhd)</SelectedItem>
+         <SelectedItem>add_tb - behavior (Z:/lab-repo/P1/add_tb.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000232000000020000000000000000000000000200000064ffffffff000000810000000300000002000002320000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>sign_extender_tb - behavior (Z:/lab-repo/P1/sign_extender_tb.vhd)</CurrentItem>
+      <CurrentItem>add_tb - behavior (Z:/lab-repo/P1/add_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

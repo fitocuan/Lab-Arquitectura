@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   11:05:31 08/19/2020
+-- Create Date:   11:07:15 08/19/2020
 -- Design Name:   
--- Module Name:   C:/PROJECTS/P1/adder_tb.vhd
+-- Module Name:   C:/PROJECTS/P1/add_tb.vhd
 -- Project Name:  P1
 -- Target Device:  
 -- Tool versions:  
@@ -32,16 +32,15 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY adder_tb IS
-END adder_tb;
+ENTITY add_tb IS
+END add_tb;
  
-ARCHITECTURE behavior OF adder_tb IS 
+ARCHITECTURE behavior OF add_tb IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
     COMPONENT add
     PORT(
-         clk : IN  std_logic;
          A_Adder : IN  std_logic_vector(31 downto 0);
          B_Adder : IN  std_logic_vector(31 downto 0);
          C_Adder : OUT  std_logic_vector(31 downto 0)
@@ -50,47 +49,33 @@ ARCHITECTURE behavior OF adder_tb IS
     
 
    --Inputs
-   signal clk : std_logic := '0';
    signal A_Adder : std_logic_vector(31 downto 0) := (others => '0');
    signal B_Adder : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
    signal C_Adder : std_logic_vector(31 downto 0);
-
-   -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   -- No clocks detected in port list. Replace <clock> below with 
+   -- appropriate port name 
+ 
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: add PORT MAP (
-          clk => clk,
           A_Adder => A_Adder,
           B_Adder => B_Adder,
           C_Adder => C_Adder
         );
 
-   -- Clock process definitions
-   clk_process :process
-   begin
-		clk <= '0';
-		wait for clk_period/2;
-		clk <= '1';
-		wait for clk_period/2;
-   end process;
+ A_Adder <= "00000000000000000000000000000000" after 100 ns,
+				"11111111111111111111111111111111" after 200 ns,
+				"11111111111111111111111111111111" after 300 ns;
+				
+ B_Adder <= "00000000000000000000000000000000" after 100 ns,
+				"00000000000000000000000000000000" after 200 ns,
+				"11111111111111111111111111111111" after 300 ns;					
  
-
-   -- Stimulus process
-   stim_proc: process
-   begin		
-      -- hold reset state for 100 ns.
-      wait for 100 ns;	
-
-      wait for clk_period*10;
-
-      -- insert stimulus here 
-
-      wait;
-   end process;
-
+ 
+ 
+ 
 END;
