@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Practica3/ROM_isim_beh.exe" -prj "E:/Practica3/ROM_beh.prj" "work.ROM" 
