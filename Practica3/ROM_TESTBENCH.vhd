@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   14:03:30 09/04/2020
+-- Create Date:   15:19:02 09/04/2020
 -- Design Name:   
 -- Module Name:   E:/Practica3/ROM_TESTBENCH.vhd
 -- Project Name:  Practica3
@@ -27,7 +27,7 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
- USE ieee.std_logic_unsigned.ALL;
+ 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
@@ -48,13 +48,14 @@ ARCHITECTURE behavior OF ROM_TESTBENCH IS
     
 
    --Inputs
-   signal READ_ADDRESS : std_logic_vector(31 downto 0) := x"00000000";
-	signal numeric_index : integer := 0;
+   signal READ_ADDRESS : std_logic_vector(31 downto 0) := (others => '0');
+
  	--Outputs
-   signal INSTRUCTION : std_logic_vector(31 downto 0) := (others => '0');
+   signal INSTRUCTION : std_logic_vector(31 downto 0);
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
+   constant clk_period : time := 10 ns;
  
 BEGIN
  
@@ -64,23 +65,21 @@ BEGIN
           INSTRUCTION => INSTRUCTION
         );
 
-
- 
-
    -- Stimulus process
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		READ_ADDRESS <= x"00000000";
       wait for 100 ns;	
 		READ_ADDRESS <= x"00000000";
+      wait for clk_period*10;
+		READ_ADDRESS <= x"00000008";
       wait for 100 ns;	
-		READ_ADDRESS <= x"00000001";
+		READ_ADDRESS <= x"00000004";
 		wait for 100 ns;	
 		READ_ADDRESS <= x"0000000C";
 		wait for 100 ns;
-		
-
+		READ_ADDRESS <= x"00000000";
+		wait for 100 ns;
       -- insert stimulus here 
 
       wait;

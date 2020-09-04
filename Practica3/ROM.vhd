@@ -41,17 +41,16 @@ type DATA_ARRAY is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 signal ROM_DATA : DATA_ARRAY :=(
 							OTHERS => (OTHERS => '0')
 							);
-signal numeric_index : integer := 4;
+signal NEW_INSTRUCTION: STD_LOGIC_VECTOR(31 downto 0);
 begin
-
-
 -- HARDCODED VALUES FOR TESTING
-ROM_DATA(1) <= x"0000ff88"; -- READADDRESS 0x08
-ROM_DATA(3) <= x"00112233"; -- READADDRESS 0x0C
+ROM_DATA(3) <= x"ff00ff00"; -- READDRESS 0x0C
+ROM_DATA(1) <= x"0000ff88"; -- READADDRESS 0x04
+ROM_DATA(2) <= x"00112233"; -- READADDRESS 0x08
 
-numeric_index <= to_integer(unsigned(READ_ADDRESS));
-
-INSTRUCTION <= ROM_DATA(numeric_index / 4);
-
+process(READ_ADDRESS)
+begin
+INSTRUCTION <= ROM_DATA(to_integer(unsigned(READ_ADDRESS)) / 4);
+end process;
 end Behavioral;
 
