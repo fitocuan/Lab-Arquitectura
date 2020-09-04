@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "E:/Practica3/ROM_TESTBENCH_isim_beh.exe" -prj "E:/Practica3/ROM_TESTBENCH_beh.prj" "work.ROM_TESTBENCH" 
+-intstyle "ise" -incremental -lib "secureip" -o "Z:/lab-repo/Practica3/RAM_TESTBENCH_isim_beh.exe" -prj "Z:/lab-repo/Practica3/RAM_TESTBENCH_beh.prj" "work.RAM_TESTBENCH" 

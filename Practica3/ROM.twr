@@ -1,0 +1,129 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml ROM.twx ROM.ncd -o ROM.twr ROM.pcf
+
+Design file:              ROM.ncd
+Physical constraint file: ROM.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+READ_ADDRESS<2>|INSTRUCTION<0> |    7.184|
+READ_ADDRESS<2>|INSTRUCTION<1> |    6.789|
+READ_ADDRESS<2>|INSTRUCTION<3> |    6.973|
+READ_ADDRESS<2>|INSTRUCTION<4> |    6.767|
+READ_ADDRESS<2>|INSTRUCTION<5> |    6.809|
+READ_ADDRESS<2>|INSTRUCTION<7> |    7.164|
+READ_ADDRESS<2>|INSTRUCTION<8> |    7.012|
+READ_ADDRESS<2>|INSTRUCTION<9> |    6.816|
+READ_ADDRESS<2>|INSTRUCTION<10>|    7.378|
+READ_ADDRESS<2>|INSTRUCTION<11>|    7.322|
+READ_ADDRESS<2>|INSTRUCTION<12>|    7.309|
+READ_ADDRESS<2>|INSTRUCTION<13>|    6.982|
+READ_ADDRESS<2>|INSTRUCTION<14>|    7.466|
+READ_ADDRESS<2>|INSTRUCTION<15>|    7.547|
+READ_ADDRESS<2>|INSTRUCTION<16>|    7.052|
+READ_ADDRESS<2>|INSTRUCTION<20>|    7.420|
+READ_ADDRESS<3>|INSTRUCTION<0> |    6.994|
+READ_ADDRESS<3>|INSTRUCTION<1> |    6.599|
+READ_ADDRESS<3>|INSTRUCTION<3> |    6.783|
+READ_ADDRESS<3>|INSTRUCTION<4> |    6.577|
+READ_ADDRESS<3>|INSTRUCTION<5> |    6.619|
+READ_ADDRESS<3>|INSTRUCTION<7> |    6.974|
+READ_ADDRESS<3>|INSTRUCTION<8> |    6.822|
+READ_ADDRESS<3>|INSTRUCTION<10>|    7.188|
+READ_ADDRESS<3>|INSTRUCTION<11>|    7.132|
+READ_ADDRESS<3>|INSTRUCTION<12>|    7.119|
+READ_ADDRESS<3>|INSTRUCTION<14>|    7.276|
+READ_ADDRESS<3>|INSTRUCTION<15>|    7.357|
+READ_ADDRESS<3>|INSTRUCTION<16>|    6.862|
+READ_ADDRESS<3>|INSTRUCTION<20>|    7.230|
+READ_ADDRESS<4>|INSTRUCTION<0> |    6.807|
+READ_ADDRESS<4>|INSTRUCTION<1> |    6.412|
+READ_ADDRESS<4>|INSTRUCTION<3> |    6.596|
+READ_ADDRESS<4>|INSTRUCTION<4> |    6.390|
+READ_ADDRESS<4>|INSTRUCTION<5> |    6.432|
+READ_ADDRESS<4>|INSTRUCTION<7> |    6.787|
+READ_ADDRESS<4>|INSTRUCTION<8> |    6.635|
+READ_ADDRESS<4>|INSTRUCTION<9> |    6.405|
+READ_ADDRESS<4>|INSTRUCTION<10>|    7.001|
+READ_ADDRESS<4>|INSTRUCTION<11>|    6.945|
+READ_ADDRESS<4>|INSTRUCTION<12>|    6.932|
+READ_ADDRESS<4>|INSTRUCTION<13>|    6.571|
+READ_ADDRESS<4>|INSTRUCTION<14>|    7.089|
+READ_ADDRESS<4>|INSTRUCTION<15>|    7.170|
+READ_ADDRESS<4>|INSTRUCTION<16>|    6.675|
+READ_ADDRESS<4>|INSTRUCTION<20>|    7.043|
+READ_ADDRESS<5>|INSTRUCTION<0> |    6.719|
+READ_ADDRESS<5>|INSTRUCTION<1> |    6.324|
+READ_ADDRESS<5>|INSTRUCTION<3> |    6.508|
+READ_ADDRESS<5>|INSTRUCTION<4> |    6.302|
+READ_ADDRESS<5>|INSTRUCTION<5> |    6.344|
+READ_ADDRESS<5>|INSTRUCTION<7> |    6.699|
+READ_ADDRESS<5>|INSTRUCTION<8> |    6.547|
+READ_ADDRESS<5>|INSTRUCTION<9> |    6.835|
+READ_ADDRESS<5>|INSTRUCTION<10>|    6.913|
+READ_ADDRESS<5>|INSTRUCTION<11>|    6.857|
+READ_ADDRESS<5>|INSTRUCTION<12>|    6.844|
+READ_ADDRESS<5>|INSTRUCTION<13>|    7.001|
+READ_ADDRESS<5>|INSTRUCTION<14>|    7.001|
+READ_ADDRESS<5>|INSTRUCTION<15>|    7.082|
+READ_ADDRESS<5>|INSTRUCTION<16>|    6.587|
+READ_ADDRESS<5>|INSTRUCTION<20>|    6.955|
+READ_ADDRESS<6>|INSTRUCTION<0> |    6.695|
+READ_ADDRESS<6>|INSTRUCTION<1> |    6.300|
+READ_ADDRESS<6>|INSTRUCTION<3> |    6.484|
+READ_ADDRESS<6>|INSTRUCTION<4> |    6.278|
+READ_ADDRESS<6>|INSTRUCTION<5> |    6.320|
+READ_ADDRESS<6>|INSTRUCTION<7> |    6.675|
+READ_ADDRESS<6>|INSTRUCTION<8> |    6.523|
+READ_ADDRESS<6>|INSTRUCTION<9> |    6.846|
+READ_ADDRESS<6>|INSTRUCTION<10>|    6.889|
+READ_ADDRESS<6>|INSTRUCTION<11>|    6.833|
+READ_ADDRESS<6>|INSTRUCTION<12>|    6.820|
+READ_ADDRESS<6>|INSTRUCTION<13>|    7.012|
+READ_ADDRESS<6>|INSTRUCTION<14>|    6.977|
+READ_ADDRESS<6>|INSTRUCTION<15>|    7.058|
+READ_ADDRESS<6>|INSTRUCTION<16>|    6.563|
+READ_ADDRESS<6>|INSTRUCTION<20>|    6.931|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 04 15:00:50 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+

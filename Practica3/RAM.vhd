@@ -19,6 +19,8 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+USE ieee.numeric_std.ALL;
+
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -40,11 +42,41 @@ entity RAM is
 end RAM;
 
 architecture Behavioral of RAM is
+
 type RAM_DATA_ARRAY is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 signal RAM_DATA : RAM_DATA_ARRAY :=(
 							OTHERS => (OTHERS => '0')
 							);
 begin
+
+-- HARDCODED VALUES FOR TESTING
+RAM_DATA(3) <= x"ff00ff00"; -- READDRESS 0x0C
+
+
+process(WRITE_ENABLE,READ_ENABLE,ENABLE, CLK, RW_ADDRESS, WRITE_DATA)
+begin
+
+	if ENABLE = '0' then
+	
+		if (READ_ENABLE = '1') and  (WRITE_ENABLE = '0') then
+			
+			READ_DATA <= RAM_DATA(to_integer(unsigned(RW_ADDRESS)) / 4);
+		
+		elsif (READ_ENABLE = '0') and  (WRITE_ENABLE = '1') then
+			
+			if falling_edge(CLK) then
+			
+				RAM_DATA(to_integer(unsigned(RW_ADDRESS)) / 4) <= WRITE_DATA;
+				
+			end if;
+				
+			READ_DATA <= x"00000000";
+			
+		end if;
+		
+	end if;
+
+end process;
 
 
 end Behavioral;
