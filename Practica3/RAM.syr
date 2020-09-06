@@ -114,7 +114,7 @@ Parsing architecture <Behavioral> of entity <ram>.
 =========================================================================
 
 Elaborating entity <RAM> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd" Line 60: ram_data should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd" Line 64: ram_data should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -401,8 +401,8 @@ CLK            |         |    1.904|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.22 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.17 secs
  
 --> 
 

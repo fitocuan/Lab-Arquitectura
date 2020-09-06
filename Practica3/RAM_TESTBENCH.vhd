@@ -96,13 +96,34 @@ BEGIN
 		
 		RW_ADDRESS <= x"0000000C";
 		WRITE_DATA <= x"00000001";
-		READ_ENABLE <= '1';
-		WRITE_ENABLE <= '0';
+		READ_ENABLE <= '0';
+		WRITE_ENABLE <= '1';
 		ENABLE <= '0';
 		
+		wait for 100 ns;
+
+		RW_ADDRESS <= x"0000000C";
+		WRITE_DATA <= x"00000001";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';		
 		
+		wait for 100 ns;
 		
-		wait for 100 ns;	
+		RW_ADDRESS <= x"0000000C";
+		WRITE_DATA <= x"00000006";
+		READ_ENABLE <= '0';
+		WRITE_ENABLE <= '1';
+		ENABLE <= '0';
+		
+		wait for 100 ns;
+
+		RW_ADDRESS <= x"0000000C";
+		WRITE_DATA <= x"00000001";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';	
+
 		
       wait for CLK_period*10;
 
