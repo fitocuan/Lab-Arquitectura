@@ -1,14 +1,14 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o Z:/lab-repo/Practica3/RAM_TESTBENCH_isim_beh.exe -prj Z:/lab-repo/Practica3/RAM_TESTBENCH_beh.prj work.RAM_TESTBENCH 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Practica3/RAM_TESTBENCH_isim_beh.exe -prj E:/Practica3/RAM_TESTBENCH_beh.prj work.RAM_TESTBENCH 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "Z:/lab-repo/Practica3/RAM.vhd" into library work
-Parsing VHDL file "Z:/lab-repo/Practica3/RAM_TESTBENCH.vhd" into library work
+Parsing VHDL file "E:/Practica3/RAM.vhd" into library work
+Parsing VHDL file "E:/Practica3/RAM_TESTBENCH.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 79656 KB
-Fuse CPU Usage: 160 ms
+Fuse Memory Usage: 79312 KB
+Fuse CPU Usage: 220 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -16,6 +16,6 @@ Compiling architecture behavioral of entity RAM [ram_default]
 Compiling architecture behavior of entity ram_testbench
 Time Resolution for simulation is 1ps.
 Compiled 6 VHDL Units
-Built simulation executable Z:/lab-repo/Practica3/RAM_TESTBENCH_isim_beh.exe
-Fuse Memory Usage: 93036 KB
-Fuse CPU Usage: 240 ms
+Built simulation executable E:/Practica3/RAM_TESTBENCH_isim_beh.exe
+Fuse Memory Usage: 92692 KB
+Fuse CPU Usage: 320 ms

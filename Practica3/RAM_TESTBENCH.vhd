@@ -93,39 +93,65 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		
-		RW_ADDRESS <= x"0000000C";
-		WRITE_DATA <= x"00000001";
-		READ_ENABLE <= '0';
-		WRITE_ENABLE <= '1';
 		ENABLE <= '0';
-		
-		wait for 100 ns;
-
-		RW_ADDRESS <= x"0000000C";
-		WRITE_DATA <= x"00000001";
+		RW_ADDRESS <= x"0000000C"; -- Lee la tercera localidad 
+		WRITE_DATA <= x"00000000";
 		READ_ENABLE <= '1';
 		WRITE_ENABLE <= '0';
+
+		wait for CLK_period ;
+
+		
+		RW_ADDRESS <= x"00000004"; -- Lee la segunda localidad
+		WRITE_DATA <= x"00000000";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';
+		
+		wait for CLK_period ;
+		
+
+		RW_ADDRESS <= x"00000000"; -- Lee la primera localidad
+		WRITE_DATA <= x"00000000";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';
+		
+		wait for CLK_period ;
+
+
+		RW_ADDRESS <= x"0000000C"; -- Escribe en la tercera 
+		WRITE_DATA <= x"00000055";
+		READ_ENABLE <= '0';
+		WRITE_ENABLE <= '1';
 		ENABLE <= '0';		
 		
-		wait for 100 ns;
+		wait for CLK_period *2;
 		
-		RW_ADDRESS <= x"0000000C";
-		WRITE_DATA <= x"00000006";
-		READ_ENABLE <= '0';
-		WRITE_ENABLE <= '1';
 		ENABLE <= '0';
-		
-		wait for 100 ns;
-
-		RW_ADDRESS <= x"0000000C";
-		WRITE_DATA <= x"00000001";
+		RW_ADDRESS <= x"0000000C"; -- Lee la tercera localidad 
+		WRITE_DATA <= x"00000000";
 		READ_ENABLE <= '1';
 		WRITE_ENABLE <= '0';
-		ENABLE <= '0';	
 
+		wait for CLK_period ;
 		
-      wait for CLK_period*10;
+		RW_ADDRESS <= x"00000004"; -- Escribe en la segunda 
+		WRITE_DATA <= x"00000033";
+		READ_ENABLE <= '0';
+		WRITE_ENABLE <= '1';
+		ENABLE <= '0';		
+		
+		wait for CLK_period *2;
+		
+		RW_ADDRESS <= x"00000004"; -- Lee la segunda localidad
+		WRITE_DATA <= x"00000000";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';
+		
+		wait for CLK_period * 5;
+		
 
       -- insert stimulus here 
 		
