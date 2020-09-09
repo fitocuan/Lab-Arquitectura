@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica3/RAM.vhd";
+static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica3/RAM.vhd";
 extern char *IEEE_P_1242562249;
 extern char *IEEE_P_2592010699;
 
@@ -103,7 +103,7 @@ LAB5:    xsi_set_current_line(60, ng0);
     t12 = *((char **)t1);
     t1 = (t0 + 960U);
     t13 = *((char **)t1);
-    t1 = (t0 + 3756U);
+    t1 = (t0 + 3788U);
     t14 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t13, t1);
     t15 = (t14 / 4);
     t16 = (t15 - 0);
@@ -136,7 +136,7 @@ LAB11:    xsi_set_current_line(64, ng0);
 
 LAB18:
 LAB17:    xsi_set_current_line(70, ng0);
-    t1 = (t0 + 4936);
+    t1 = (t0 + 4968);
     t6 = (t0 + 2136);
     t9 = (t6 + 32U);
     t12 = *((char **)t9);
@@ -158,7 +158,7 @@ LAB16:    xsi_set_current_line(66, ng0);
     t12 = *((char **)t9);
     t9 = (t0 + 960U);
     t13 = *((char **)t9);
-    t9 = (t0 + 3756U);
+    t9 = (t0 + 3788U);
     t14 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t13, t9);
     t15 = (t14 / 4);
     t16 = (t15 - 0);
