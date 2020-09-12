@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "Z:/lab-repo/Practica4/REG_FILE_MUX_TESTBENCH_isim_beh.exe" -prj "Z:/lab-repo/Practica4/REG_FILE_MUX_TESTBENCH_beh.prj" "work.REG_FILE_MUX_TESTBENCH" 
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Practica4/REG_FILE_DECODER_TESTBENCH_isim_beh.exe" -prj "E:/Practica4/REG_FILE_DECODER_TESTBENCH_beh.prj" "work.REG_FILE_DECODER_TESTBENCH" 

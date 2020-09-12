@@ -1,5 +1,5 @@
 ISim log file
-Running: Z:\lab-repo\Practica4\REG_FILE_MUX_TESTBENCH_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Z:/lab-repo/Practica4/REG_FILE_MUX_TESTBENCH_isim_beh.wdb 
+Running: E:\Practica4\REG_FILE_DECODER_TESTBENCH_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Practica4/REG_FILE_DECODER_TESTBENCH_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
