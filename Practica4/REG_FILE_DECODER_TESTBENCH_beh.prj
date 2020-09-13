@@ -1,0 +1,2 @@
+vhdl work "REG_FILE_DECODER.vhd"
+vhdl work "REG_FILE_DECODER_TESTBENCH.vhd"
