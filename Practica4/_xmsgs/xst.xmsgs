@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd" Line 53: Net &lt;<arg fmt="%s" index="1">initial_value[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">initial_value&lt;31:1&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">REG_FILE_DECODER</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000000000000000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ENABLES&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+</messages>
+

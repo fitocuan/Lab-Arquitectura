@@ -1,0 +1,4 @@
+vhdl work "REG_FILE_REGISTERS.vhd"
+vhdl work "REG_FILE_MUX.vhd"
+vhdl work "REG_FILE_DECODER.vhd"
+vhdl work "REG_FILE.vhd"

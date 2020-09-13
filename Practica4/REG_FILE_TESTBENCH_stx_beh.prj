@@ -1,0 +1,5 @@
+vhdl isim_temp "REG_FILE_REGISTERS.vhd"
+vhdl isim_temp "REG_FILE_MUX.vhd"
+vhdl isim_temp "REG_FILE_DECODER.vhd"
+vhdl isim_temp "REG_FILE.vhd"
+vhdl isim_temp "REG_FILE_TESTBENCH.vhd"

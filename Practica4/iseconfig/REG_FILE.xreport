@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-09-13T10:47:23</DateModified>
+  <DateModified>2020-09-13T10:54:14</DateModified>
   <ModuleName>REG_FILE</ModuleName>
-  <SummaryTimeStamp>2020-09-13T10:44:04</SummaryTimeStamp>
-  <SavedFilePath>Z:/lab-repo/Practica4/iseconfig/REG_FILE_REGISTERS.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>Z:/lab-repo/Practica4\</ImplementationReportsDirectory>
-  <DateInitialized>2020-09-13T10:38:09</DateInitialized>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>Z:/lab-repo/Practica4/iseconfig/REG_FILE.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>Z:/lab-repo/Practica4</ImplementationReportsDirectory>
+  <DateInitialized>2020-09-13T10:54:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
