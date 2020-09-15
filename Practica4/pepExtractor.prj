@@ -1,1 +1,4 @@
+work	"REG_FILE.vhd"
+work	"REG_FILE_DECODER.vhd"
+work	"REG_FILE_MUX.vhd"
 work	"REG_FILE_REGISTERS.vhd"

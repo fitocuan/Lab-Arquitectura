@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o Z:/lab-repo/Practica4/REG_FILE_TESTBENCH_isim_beh.exe -prj Z:/lab-repo/Practica4/REG_FILE_TESTBENCH_beh.prj work.REG_FILE_TESTBENCH 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "Z:/lab-repo/Practica4/REG_FILE_REGISTERS.vhd" into library work
+Parsing VHDL file "Z:/lab-repo/Practica4/REG_FILE_MUX.vhd" into library work
+Parsing VHDL file "Z:/lab-repo/Practica4/REG_FILE_DECODER.vhd" into library work
+Parsing VHDL file "Z:/lab-repo/Practica4/REG_FILE.vhd" into library work
+Parsing VHDL file "Z:/lab-repo/Practica4/REG_FILE_TESTBENCH.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 79656 KB
+Fuse CPU Usage: 210 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package register_utils
+Compiling package numeric_std
+Compiling architecture behavioral of entity REG_FILE_DECODER [reg_file_decoder_default]
+Compiling architecture behavioral of entity REG_FILE_REGISTERS [reg_file_registers_default]
+Compiling architecture behavioral of entity REG_FILE_MUX [reg_file_mux_default]
+Compiling architecture structural of entity REG_FILE [reg_file_default]
+Compiling architecture behavior of entity reg_file_testbench
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable Z:/lab-repo/Practica4/REG_FILE_TESTBENCH_isim_beh.exe
+Fuse Memory Usage: 95212 KB
+Fuse CPU Usage: 320 ms

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "Z:/lab-repo/Practica4/REG_FILE.xst" -ofn "Z:/lab-repo/Practica4/REG_FILE.syr" 
+xst -intstyle ise -ifn "Z:/lab-repo/Practica4/REG_FILE.xst" -ofn "Z:/lab-repo/Practica4/REG_FILE.syr" 
+xst -intstyle ise -ifn "Z:/lab-repo/Practica4/REG_FILE.xst" -ofn "Z:/lab-repo/Practica4/REG_FILE.syr" 
+xst -intstyle ise -ifn "Z:/lab-repo/Practica4/REG_FILE.xst" -ofn "Z:/lab-repo/Practica4/REG_FILE.syr" 
+xst -intstyle ise -ifn "Z:/lab-repo/Practica4/REG_FILE.xst" -ofn "Z:/lab-repo/Practica4/REG_FILE.syr" 
+netgen -intstyle ise -ar Structure -tm REG_FILE -w -dir netgen/synthesis -ofmt vhdl -sim REG_FILE.ngc REG_FILE_synthesis.vhd 
