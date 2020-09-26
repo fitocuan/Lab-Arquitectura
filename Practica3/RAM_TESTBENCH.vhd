@@ -126,7 +126,7 @@ BEGIN
 		WRITE_ENABLE <= '1';
 		ENABLE <= '0';		
 		
-		wait for CLK_period *2;
+		wait for CLK_period ;
 		
 		ENABLE <= '0';
 		RW_ADDRESS <= x"0000000C"; -- Lee la tercera localidad 
@@ -142,7 +142,7 @@ BEGIN
 		WRITE_ENABLE <= '1';
 		ENABLE <= '0';		
 		
-		wait for CLK_period *2;
+		wait for CLK_period ;
 		
 		RW_ADDRESS <= x"00000004"; -- Lee la segunda localidad
 		WRITE_DATA <= x"00000000";
@@ -150,9 +150,23 @@ BEGIN
 		WRITE_ENABLE <= '0';
 		ENABLE <= '0';
 		
-		wait for CLK_period * 5;
+		wait for CLK_period ;
 		
-
+		RW_ADDRESS <= x"00000000"; -- Escribe en la primera 
+		WRITE_DATA <= x"00000055";
+		READ_ENABLE <= '0';
+		WRITE_ENABLE <= '1';
+		ENABLE <= '0';		
+		
+		wait for CLK_period;
+		
+		RW_ADDRESS <= x"00000000"; -- Lee la primera localidad
+		WRITE_DATA <= x"00000000";
+		READ_ENABLE <= '1';
+		WRITE_ENABLE <= '0';
+		ENABLE <= '0';
+		
+		wait for CLK_period;
       -- insert stimulus here 
 		
 		
