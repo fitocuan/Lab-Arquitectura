@@ -1,0 +1,13 @@
+p5
+Z:\lab-repo\p5\
+Objects\
+0
+1
+minic
+0
+0
+0
+0
+1
+objcopy.exe -O srec p5.out p5.srec
+80020000 start

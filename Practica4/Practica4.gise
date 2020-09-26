@@ -32,9 +32,11 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="REG_FILE.xst"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REG_FILE_DECODER_TESTBENCH_beh.prj"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="REG_FILE_DECODER_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REG_FILE_TESTBENCH_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REG_FILE_MUX_TESTBENCH_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="REG_FILE_MUX_TESTBENCH_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="REG_FILE_MUX_TESTBENCH_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REG_FILE_MUX_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="REG_FILE_TESTBENCH_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="REG_FILE_TESTBENCH_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REG_FILE_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="REG_FILE_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="REG_FILE_summary.html"/>
@@ -57,13 +59,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600012883" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1600012883">
+    <transform xil_pn:end_ts="1600392012" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1600392012">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="REG_FILE.vhd"/>
       <outfile xil_pn:name="REG_FILE_DECODER.vhd"/>
       <outfile xil_pn:name="REG_FILE_DECODER_TEST_BENCH.vhd"/>
@@ -73,11 +71,11 @@
       <outfile xil_pn:name="REG_FILE_REGISTERS_TESTBENCH.vhd"/>
       <outfile xil_pn:name="REG_FILE_TESTBENCH.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1600012885" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4194265165502716270" xil_pn:start_ts="1600012885">
+    <transform xil_pn:end_ts="1600391810" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2858135103444172565" xil_pn:start_ts="1600391810">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600012885" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4263190351096225552" xil_pn:start_ts="1600012885">
+    <transform xil_pn:end_ts="1600391810" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-373524484258100375" xil_pn:start_ts="1600391810">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -85,14 +83,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1600012885" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1600012885">
+    <transform xil_pn:end_ts="1600392012" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1600392012">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="REG_FILE.vhd"/>
       <outfile xil_pn:name="REG_FILE_DECODER.vhd"/>
       <outfile xil_pn:name="REG_FILE_DECODER_TEST_BENCH.vhd"/>
@@ -102,28 +95,24 @@
       <outfile xil_pn:name="REG_FILE_REGISTERS_TESTBENCH.vhd"/>
       <outfile xil_pn:name="REG_FILE_TESTBENCH.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1600012888" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7723146221702866812" xil_pn:start_ts="1600012885">
+    <transform xil_pn:end_ts="1600392014" xil_pn:in_ck="2257582886907596397" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9111467207565136886" xil_pn:start_ts="1600392012">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="REG_FILE_TESTBENCH_beh.prj"/>
-      <outfile xil_pn:name="REG_FILE_TESTBENCH_isim_beh.exe"/>
+      <outfile xil_pn:name="REG_FILE_MUX_TESTBENCH_beh.prj"/>
+      <outfile xil_pn:name="REG_FILE_MUX_TESTBENCH_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1600012888" xil_pn:in_ck="8675844311644585291" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7416826819938348207" xil_pn:start_ts="1600012888">
+    <transform xil_pn:end_ts="1600392014" xil_pn:in_ck="-4740515672040571057" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7807673297396199261" xil_pn:start_ts="1600392014">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="REG_FILE_TESTBENCH_isim_beh.wdb"/>
+      <outfile xil_pn:name="REG_FILE_MUX_TESTBENCH_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
