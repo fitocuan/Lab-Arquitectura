@@ -30,8 +30,10 @@ nop
 wait: 	
 
 lui s5,0xbfa0
-		lw s4, 0(s5)
+		lb s4, 0(s5)
+		nop
 		andi s4, s4, 0x00000001
+		nop
 		beq s4, r0, wait
 		nop
 		jr ra
@@ -40,9 +42,10 @@ lui s5,0xbfa0
 wait2:	
 
 lui s5,0xbfa0
-		and s4,r0,s4
-		lw s4, 0(s5)
+		lb s4, 0(s5)
+		nop
 		andi s4,s4, 0x00000001	
+		nop
 		bne s4, r0, wait2
 		nop
 		jr ra
