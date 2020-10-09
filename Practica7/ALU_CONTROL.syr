@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.17 secs
  
---> Reading design: CONTROL_UNIT.prj
+--> Reading design: ALU_CONTROL.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -40,16 +40,16 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "CONTROL_UNIT.prj"
+Input File Name                    : "ALU_CONTROL.prj"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "CONTROL_UNIT"
+Output File Name                   : "ALU_CONTROL"
 Output Format                      : NGC
 Target Device                      : xc6slx16-3-csg324
 
 ---- Source Options
-Top Module Name                    : CONTROL_UNIT
+Top Module Name                    : ALU_CONTROL
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -105,30 +105,33 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica7\CONTROL_UNIT.vhd" into library work
-Parsing entity <CONTROL_UNIT>.
-Parsing architecture <Behavioral> of entity <control_unit>.
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica7\ALU_CONTROL.vhd" into library work
+Parsing entity <ALU_CONTROL>.
+Parsing architecture <Behavioral> of entity <alu_control>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
-Elaborating entity <CONTROL_UNIT> (architecture <Behavioral>) from library <work>.
+Elaborating entity <ALU_CONTROL> (architecture <Behavioral>) from library <work>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
-Synthesizing Unit <CONTROL_UNIT>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica7\CONTROL_UNIT.vhd".
+Synthesizing Unit <ALU_CONTROL>.
+    Related source file is "\\vboxsrv\sharedfolder\Practica7\ALU_CONTROL.vhd".
     Summary:
-	no macro.
-Unit <CONTROL_UNIT> synthesized.
+	inferred   1 Multiplexer(s).
+Unit <ALU_CONTROL> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Multiplexers                                         : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+
 =========================================================================
 
 =========================================================================
@@ -139,18 +142,21 @@ Found no macro
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Multiplexers                                         : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <CONTROL_UNIT> ...
+Optimizing unit <ALU_CONTROL> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block CONTROL_UNIT, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block ALU_CONTROL, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -175,15 +181,16 @@ Partition Implementation Status
 *                            Design Summary                             *
 =========================================================================
 
-Top Level Output File Name         : CONTROL_UNIT.ngc
+Top Level Output File Name         : ALU_CONTROL.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 10
-#      LUT6                        : 10
-# IO Buffers                       : 17
-#      IBUF                        : 6
-#      OBUF                        : 11
+# BELS                             : 7
+#      LUT4                        : 3
+#      LUT6                        : 4
+# IO Buffers                       : 13
+#      IBUF                        : 9
+#      OBUF                        : 4
 
 Device utilization summary:
 ---------------------------
@@ -192,19 +199,19 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                   10  out of   9112     0%  
-    Number used as Logic:                10  out of   9112     0%  
+ Number of Slice LUTs:                    7  out of   9112     0%  
+    Number used as Logic:                 7  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     10
-   Number with an unused Flip Flop:      10  out of     10   100%  
-   Number with an unused LUT:             0  out of     10     0%  
-   Number of fully used LUT-FF pairs:     0  out of     10     0%  
+ Number of LUT Flip Flop pairs used:      7
+   Number with an unused Flip Flop:       7  out of      7   100%  
+   Number with an unused LUT:             0  out of      7     0%  
+   Number of fully used LUT-FF pairs:     0  out of      7     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          17
- Number of bonded IOBs:                  17  out of    232     7%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
 
 Specific Feature Utilization:
 
@@ -239,7 +246,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 5.833ns
+   Maximum combinational path delay: 6.535ns
 
 Timing Details:
 ---------------
@@ -247,22 +254,23 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 66 / 11
+  Total number of paths / destination ports: 33 / 4
 -------------------------------------------------------------------------
-Delay:               5.833ns (Levels of Logic = 3)
-  Source:            CONTROL_UNIT_OP_CODE<3> (PAD)
-  Destination:       CONTROL_UNIT_MEM_READ (PAD)
+Delay:               6.535ns (Levels of Logic = 4)
+  Source:            ALU_CONTROL_INSTRUC<2> (PAD)
+  Destination:       ALU_CONTROL_OUT<1> (PAD)
 
-  Data Path: CONTROL_UNIT_OP_CODE<3> to CONTROL_UNIT_MEM_READ
+  Data Path: ALU_CONTROL_INSTRUC<2> to ALU_CONTROL_OUT<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            10   1.222   1.221  CONTROL_UNIT_OP_CODE_3_IBUF (CONTROL_UNIT_OP_CODE_3_IBUF)
-     LUT6:I0->O            2   0.203   0.616  CONTROL_UNIT_MEM_READ<5>1 (CONTROL_UNIT_MEM_TO_REG_OBUF)
-     OBUF:I->O                 2.571          CONTROL_UNIT_MEM_READ_OBUF (CONTROL_UNIT_MEM_READ)
+     IBUF:I->O             4   1.222   0.931  ALU_CONTROL_INSTRUC_2_IBUF (ALU_CONTROL_INSTRUC_2_IBUF)
+     LUT4:I0->O            1   0.203   0.827  Mmux_ALU_CONTROL_OUT1_SW0 (N2)
+     LUT6:I2->O            1   0.203   0.579  Mmux_ALU_CONTROL_OUT1 (ALU_CONTROL_OUT_0_OBUF)
+     OBUF:I->O                 2.571          ALU_CONTROL_OUT_0_OBUF (ALU_CONTROL_OUT<0>)
     ----------------------------------------
-    Total                      5.833ns (3.996ns logic, 1.837ns route)
-                                       (68.5% logic, 31.5% route)
+    Total                      6.535ns (4.199ns logic, 2.336ns route)
+                                       (64.3% logic, 35.7% route)
 
 =========================================================================
 
@@ -272,8 +280,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.28 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.58 secs
  
 --> 
 

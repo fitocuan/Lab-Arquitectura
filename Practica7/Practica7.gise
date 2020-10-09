@@ -22,19 +22,58 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Practica7.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ALU_CONTROL.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ALU_CONTROL.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ALU_CONTROL.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ALU_CONTROL.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_CONTROL.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU_CONTROL.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ALU_CONTROL.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ALU_CONTROL.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_CONTROL_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_CONTROL_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CONTROL_UNIT.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CONTROL_UNIT.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CONTROL_UNIT.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CONTROL_UNIT.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CONTROL_UNIT.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CONTROL_UNIT.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CONTROL_UNIT.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CONTROL_UNIT.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="CONTROL_UNIT.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="CONTROL_UNIT.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONTROL_UNIT.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="CONTROL_UNIT.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONTROL_UNIT.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CONTROL_UNIT.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CONTROL_UNIT.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CONTROL_UNIT.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CONTROL_UNIT.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="CONTROL_UNIT.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CONTROL_UNIT.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTROL_UNIT_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="CONTROL_UNIT_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONTROL_UNIT_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONTROL_UNIT_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CONTROL_UNIT_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CONTROL_UNIT_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTROL_UNIT_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTROL_UNIT_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CONTROL_UNIT_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="CONTROL_UNIT_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTROL_UNIT_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTROL_UNIT_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CONTROL_UNIT_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CONTROL_UNIT_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTROL_UNIT_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -43,46 +82,49 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4792134081135814433" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4616925753034264989" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2704179794687134448" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5312806326199019118" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2376088565482859101" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3157167887140023131" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500485" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2102334384207155354" xil_pn:start_ts="1601500485">
+    <transform xil_pn:end_ts="1602287126" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7689667245746858972" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1601500781" xil_pn:in_ck="1104921862904963600" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1546844306676627159" xil_pn:start_ts="1601500774">
+    <transform xil_pn:end_ts="1602287133" xil_pn:in_ck="5928447694230573826" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6874493384295034411" xil_pn:start_ts="1602287126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="CONTROL_UNIT.lso"/>
-      <outfile xil_pn:name="CONTROL_UNIT.ngc"/>
-      <outfile xil_pn:name="CONTROL_UNIT.ngr"/>
-      <outfile xil_pn:name="CONTROL_UNIT.prj"/>
-      <outfile xil_pn:name="CONTROL_UNIT.stx"/>
-      <outfile xil_pn:name="CONTROL_UNIT.syr"/>
-      <outfile xil_pn:name="CONTROL_UNIT.xst"/>
-      <outfile xil_pn:name="CONTROL_UNIT_xst.xrpt"/>
+      <outfile xil_pn:name="ALU_CONTROL.lso"/>
+      <outfile xil_pn:name="ALU_CONTROL.ngc"/>
+      <outfile xil_pn:name="ALU_CONTROL.ngr"/>
+      <outfile xil_pn:name="ALU_CONTROL.prj"/>
+      <outfile xil_pn:name="ALU_CONTROL.stx"/>
+      <outfile xil_pn:name="ALU_CONTROL.syr"/>
+      <outfile xil_pn:name="ALU_CONTROL.xst"/>
+      <outfile xil_pn:name="ALU_CONTROL_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1602287013" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5226843572502570104" xil_pn:start_ts="1602287012">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
   </transforms>
 

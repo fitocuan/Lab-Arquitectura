@@ -6,3 +6,8 @@ xst -intstyle ise -ifn "Z:/lab-repo/Practica7/CONTROL_UNIT.xst" -ofn "Z:/lab-rep
 xst -intstyle ise -ifn "Z:/lab-repo/Practica7/CONTROL_UNIT.xst" -ofn "Z:/lab-repo/Practica7/CONTROL_UNIT.syr" 
 xst -intstyle ise -ifn "Z:/lab-repo/Practica7/CONTROL_UNIT.xst" -ofn "Z:/lab-repo/Practica7/CONTROL_UNIT.syr" 
 xst -intstyle ise -ifn "Z:/lab-repo/Practica7/CONTROL_UNIT.xst" -ofn "Z:/lab-repo/Practica7/CONTROL_UNIT.syr" 
+xst -intstyle ise -ifn "E:/Practica7/CONTROL_UNIT.xst" -ofn "E:/Practica7/CONTROL_UNIT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CONTROL_UNIT.ngc CONTROL_UNIT.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONTROL_UNIT_map.ncd CONTROL_UNIT.ngd CONTROL_UNIT.pcf 
+par -w -intstyle ise -ol high -mt off CONTROL_UNIT_map.ncd CONTROL_UNIT.ncd CONTROL_UNIT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONTROL_UNIT.twx CONTROL_UNIT.ncd -o CONTROL_UNIT.twr CONTROL_UNIT.pcf 

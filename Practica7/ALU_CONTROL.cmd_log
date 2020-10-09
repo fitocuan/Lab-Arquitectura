@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Practica7/ALU_CONTROL.xst" -ofn "E:/Practica7/ALU_CONTROL.syr" 

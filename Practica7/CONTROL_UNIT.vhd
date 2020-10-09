@@ -65,12 +65,23 @@ begin
 --001101 ori
 --001111 lui
 
+with CONTROL_UNIT_OP_CODE select
+	CONTROL_UNIT_ALUOP <= 	"000" when "000000", --R-Type 
+									"010" when "100011", --Suma LW
+									"010" when "101011", --Suma SW
+									"010" when "001000", --Suma ADDI
+									"110" when "000100", --Resta BEQ 
+									"001" when "001101", --OR ORI
+									"001" when "001111", --B UPPER LUI
+									"111" when others;
 
+with CONTROL_UNIT_OP_CODE select
+	CONTROL_UNIT_REG_DEST <= '1' when "000000",
+								'0' when others;
 
 		
 with CONTROL_UNIT_OP_CODE select
 	CONTROL_UNIT_JUMP <= '1' when "000010",
-								'1' when "001000",
 								'0' when others;
 								
 with CONTROL_UNIT_OP_CODE select
@@ -79,27 +90,30 @@ with CONTROL_UNIT_OP_CODE select
 									
 									
 with CONTROL_UNIT_OP_CODE select
-	CONTROL_UNIT_ALU_SRC <= '1' when "100000",
-									'1' when "100010",
-									'1' when "100100",
-									'1' when "100101",
-									'0' when others;
+	CONTROL_UNIT_MEM_READ <= 	'1' when "100011",
+									'0' when others;									
 									
-									
-with CONTROL_UNIT_OP_CODE select
-	CONTROL_UNIT_ALUOP <= 	"010" when "100000",
-									"110" when "100010",
-									"000" when "100100",
-									"001" when "100101",
-									"101" when others;
-	
 with CONTROL_UNIT_OP_CODE select
 	CONTROL_UNIT_MEM_TO_REG <= '1' when "100011",
-										'0' when others;
-										
+										'0' when others;									
+									
 with CONTROL_UNIT_OP_CODE select
 	CONTROL_UNIT_MEM_WRITE <= 	'1' when "101011",
-										'0' when others;
+										'0' when others;									
+									
+									
+with CONTROL_UNIT_OP_CODE select
+	CONTROL_UNIT_ALU_SRC <= '1' when "100011",
+									'1' when "101011",
+									'1' when "001000",
+									'1' when "001101",
+									'1' when "001111",
+									'0' when others;
+
+with CONTROL_UNIT_OP_CODE select
+	CONTROL_UNIT_REG_WRITE <= 	'0' when "101011",
+										'1' when others;																																															
+
 
 end Behavioral;
 
