@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml ALU_CONTROL.twx ALU_CONTROL.ncd -o ALU_CONTROL.twr
+ALU_CONTROL.pcf
+
+Design file:              ALU_CONTROL.ncd
+Physical constraint file: ALU_CONTROL.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+----------------------+------------------+---------+
+Source Pad            |Destination Pad   |  Delay  |
+----------------------+------------------+---------+
+ALU_CONTROL_ALUOP<0>  |ALU_CONTROL_OUT<0>|    6.125|
+ALU_CONTROL_ALUOP<0>  |ALU_CONTROL_OUT<1>|    6.826|
+ALU_CONTROL_ALUOP<0>  |ALU_CONTROL_OUT<2>|    6.565|
+ALU_CONTROL_ALUOP<1>  |ALU_CONTROL_OUT<0>|    6.382|
+ALU_CONTROL_ALUOP<1>  |ALU_CONTROL_OUT<1>|    6.330|
+ALU_CONTROL_ALUOP<1>  |ALU_CONTROL_OUT<2>|    6.536|
+ALU_CONTROL_ALUOP<2>  |ALU_CONTROL_OUT<0>|    6.420|
+ALU_CONTROL_ALUOP<2>  |ALU_CONTROL_OUT<1>|    7.059|
+ALU_CONTROL_ALUOP<2>  |ALU_CONTROL_OUT<2>|    6.874|
+ALU_CONTROL_INSTRUC<0>|ALU_CONTROL_JR    |    6.647|
+ALU_CONTROL_INSTRUC<0>|ALU_CONTROL_OUT<0>|    7.198|
+ALU_CONTROL_INSTRUC<0>|ALU_CONTROL_OUT<1>|    6.692|
+ALU_CONTROL_INSTRUC<0>|ALU_CONTROL_OUT<2>|    6.873|
+ALU_CONTROL_INSTRUC<1>|ALU_CONTROL_JR    |    6.391|
+ALU_CONTROL_INSTRUC<1>|ALU_CONTROL_OUT<0>|    7.465|
+ALU_CONTROL_INSTRUC<1>|ALU_CONTROL_OUT<1>|    6.205|
+ALU_CONTROL_INSTRUC<1>|ALU_CONTROL_OUT<2>|    7.140|
+ALU_CONTROL_INSTRUC<2>|ALU_CONTROL_JR    |    6.330|
+ALU_CONTROL_INSTRUC<2>|ALU_CONTROL_OUT<0>|    7.364|
+ALU_CONTROL_INSTRUC<2>|ALU_CONTROL_OUT<1>|    6.442|
+ALU_CONTROL_INSTRUC<2>|ALU_CONTROL_OUT<2>|    7.039|
+ALU_CONTROL_INSTRUC<3>|ALU_CONTROL_JR    |    6.425|
+ALU_CONTROL_INSTRUC<3>|ALU_CONTROL_OUT<0>|    7.052|
+ALU_CONTROL_INSTRUC<3>|ALU_CONTROL_OUT<1>|    6.002|
+ALU_CONTROL_INSTRUC<3>|ALU_CONTROL_OUT<2>|    6.727|
+ALU_CONTROL_INSTRUC<4>|ALU_CONTROL_JR    |    6.512|
+ALU_CONTROL_INSTRUC<4>|ALU_CONTROL_OUT<0>|    6.370|
+ALU_CONTROL_INSTRUC<4>|ALU_CONTROL_OUT<1>|    6.569|
+ALU_CONTROL_INSTRUC<4>|ALU_CONTROL_OUT<2>|    6.769|
+ALU_CONTROL_INSTRUC<5>|ALU_CONTROL_JR    |    6.095|
+ALU_CONTROL_INSTRUC<5>|ALU_CONTROL_OUT<0>|    6.331|
+ALU_CONTROL_INSTRUC<5>|ALU_CONTROL_OUT<1>|    6.442|
+ALU_CONTROL_INSTRUC<5>|ALU_CONTROL_OUT<2>|    6.568|
+----------------------+------------------+---------+
+
+
+Analysis completed Wed Oct 14 18:51:13 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+
