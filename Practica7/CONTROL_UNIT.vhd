@@ -72,8 +72,8 @@ with CONTROL_UNIT_OP_CODE select
 									"010" when "001000", --Suma ADDI
 									"110" when "000100", --Resta BEQ 
 									"001" when "001101", --OR ORI
-									"001" when "001111", --B UPPER LUI
-									"111" when others;
+									"100" when "001111", --B UPPER LUI
+									"101" when others;
 
 with CONTROL_UNIT_OP_CODE select
 	CONTROL_UNIT_REG_DEST <= '1' when "000000",
@@ -112,6 +112,8 @@ with CONTROL_UNIT_OP_CODE select
 
 with CONTROL_UNIT_OP_CODE select
 	CONTROL_UNIT_REG_WRITE <= 	'0' when "101011",
+										'0' when "000100",
+										'0' when "000010",
 										'1' when others;																																															
 
 

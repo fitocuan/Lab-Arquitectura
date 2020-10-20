@@ -2,9 +2,9 @@ Command line:
    ALU_CONTRO_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1037
+     -socket  1046
 
-Wed Oct 14 19:14:02 2020
+Tue Oct 20 13:31:04 2020
 
 
  Elaboration Time: 0.040057 sec
@@ -21,10 +21,11 @@ Wed Oct 14 19:14:02 2020
  Total Scalar Nets and Variables : 379
 Total Line Count : 29
 Total Line Count : 29
+Total Line Count : 29
 
  Total Simulation Time: 0.050072 sec
 
  Current Memory Usage: 327.082 Meg
 
-Wed Oct 14 19:15:33 2020
+Tue Oct 20 13:32:09 2020
 
