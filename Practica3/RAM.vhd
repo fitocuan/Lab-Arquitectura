@@ -45,12 +45,13 @@ architecture Behavioral of RAM is
 
 type RAM_DATA_ARRAY is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 signal RAM_DATA : RAM_DATA_ARRAY :=(
+							x"00000001",
+							x"00000002",
 							OTHERS => (OTHERS => '0')
 							);
 begin
 
-
-process(WRITE_ENABLE,READ_ENABLE,ENABLE, CLK, RW_ADDRESS, WRITE_DATA)
+process(WRITE_ENABLE,READ_ENABLE,ENABLE, CLK, RW_ADDRESS, WRITE_DATA, RAM_DATA)
 begin
 
 	if ENABLE = '0' then

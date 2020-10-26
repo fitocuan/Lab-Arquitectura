@@ -1,0 +1,1790 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: MIPS_PROCESSOR.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MIPS_PROCESSOR.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MIPS_PROCESSOR"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : MIPS_PROCESSOR
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_REGISTERS.vhd" into library work
+Parsing package <register_utils>.
+Parsing package body <register_utils>.
+Parsing entity <REG_FILE_REGISTERS>.
+Parsing architecture <Behavioral> of entity <reg_file_registers>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_MUX.vhd" into library work
+Parsing entity <REG_FILE_MUX>.
+Parsing architecture <Behavioral> of entity <reg_file_mux>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd" into library work
+Parsing entity <REG_FILE_DECODER>.
+Parsing architecture <Behavioral> of entity <reg_file_decoder>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica7\CONTROL_UNIT.vhd" into library work
+Parsing entity <CONTROL_UNIT>.
+Parsing architecture <Behavioral> of entity <control_unit>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica7\ALU_CONTROL.vhd" into library work
+Parsing entity <ALU_CONTROL>.
+Parsing architecture <Behavioral> of entity <alu_control>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE.vhd" into library work
+Parsing entity <REG_FILE>.
+Parsing architecture <structural> of entity <reg_file>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd" into library work
+Parsing entity <ROM>.
+Parsing architecture <Behavioral> of entity <rom>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd" into library work
+Parsing entity <RAM>.
+Parsing architecture <Behavioral> of entity <ram>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\sign_extender.vhd" into library work
+Parsing entity <sign_extender>.
+Parsing architecture <Behavioral> of entity <sign_extender>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\Shift_Left_32b.vhd" into library work
+Parsing entity <shift_left_32b>.
+Parsing architecture <Behavioral> of entity <shift_left_32b>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\SHIFTLEFT.vhd" into library work
+Parsing entity <SHIFTLEFT>.
+Parsing architecture <Behavioral> of entity <shiftleft>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_5_BITS.vhd" into library work
+Parsing entity <MUX_5_BITS>.
+Parsing architecture <Behavioral> of entity <mux_5_bits>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_32_BITS.vhd" into library work
+Parsing entity <MUX_32_BITS>.
+Parsing architecture <Behavioral> of entity <mux_32_bits>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\add.vhd" into library work
+Parsing entity <add>.
+Parsing architecture <Behavioral> of entity <add>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\P2\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\P8\MIPS_PROCESSOR.vhd" into library work
+Parsing entity <MIPS_PROCESSOR>.
+Parsing architecture <structural> of entity <mips_processor>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MIPS_PROCESSOR> (architecture <structural>) from library <work>.
+
+Elaborating entity <ROM> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd" Line 41: Net <ROM_DATA[6][31]> does not have a driver.
+
+Elaborating entity <REG_FILE> (architecture <structural>) from library <work>.
+
+Elaborating entity <REG_FILE_DECODER> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd" Line 53: Net <initial_value[31]> does not have a driver.
+
+Elaborating entity <REG_FILE_REGISTERS> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <REG_FILE_MUX> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RAM> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX_5_BITS> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX_32_BITS> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_CONTROL> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CONTROL_UNIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <shift_left_32b> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SHIFTLEFT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <sign_extender> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <add> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MIPS_PROCESSOR>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\P8\MIPS_PROCESSOR.vhd".
+WARNING:Xst:647 - Input <MIPS_P_RESET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <MIPS_PROCESSOR> synthesized.
+
+Synthesizing Unit <ROM>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd".
+WARNING:Xst:647 - Input <READ_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <READ_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2935 - Signal 'ROM_DATA<6>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<7>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<8>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<9>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<10>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<11>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<12>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<13>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<14>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<15>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<16>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<17>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<18>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<19>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<20>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<21>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<22>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<23>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<24>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<25>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<26>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<27>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<28>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<29>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<30>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_DATA<31>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
+    Found 32x32-bit Read Only RAM for signal <INSTRUCTION>
+    Summary:
+	inferred   1 RAM(s).
+Unit <ROM> synthesized.
+
+Synthesizing Unit <REG_FILE>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE.vhd".
+    Summary:
+	no macro.
+Unit <REG_FILE> synthesized.
+
+Synthesizing Unit <REG_FILE_DECODER>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd".
+WARNING:Xst:2935 - Signal 'initial_value<31:1>', unconnected in block 'REG_FILE_DECODER', is tied to its initial value (0000000000000000000000000000000).
+    Found 32-bit shifter logical left for signal <REG_FILE_DECODER_ENABLES> created at line 37
+    Summary:
+	inferred   1 Combinational logic shifter(s).
+Unit <REG_FILE_DECODER> synthesized.
+
+Synthesizing Unit <REG_FILE_REGISTERS>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_REGISTERS.vhd".
+WARNING:Xst:647 - Input <ENABLES<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <OUT_DATA<2>>.
+    Found 32-bit register for signal <OUT_DATA<3>>.
+    Found 32-bit register for signal <OUT_DATA<4>>.
+    Found 32-bit register for signal <OUT_DATA<5>>.
+    Found 32-bit register for signal <OUT_DATA<6>>.
+    Found 32-bit register for signal <OUT_DATA<7>>.
+    Found 32-bit register for signal <OUT_DATA<8>>.
+    Found 32-bit register for signal <OUT_DATA<9>>.
+    Found 32-bit register for signal <OUT_DATA<10>>.
+    Found 32-bit register for signal <OUT_DATA<11>>.
+    Found 32-bit register for signal <OUT_DATA<12>>.
+    Found 32-bit register for signal <OUT_DATA<13>>.
+    Found 32-bit register for signal <OUT_DATA<14>>.
+    Found 32-bit register for signal <OUT_DATA<15>>.
+    Found 32-bit register for signal <OUT_DATA<16>>.
+    Found 32-bit register for signal <OUT_DATA<17>>.
+    Found 32-bit register for signal <OUT_DATA<18>>.
+    Found 32-bit register for signal <OUT_DATA<19>>.
+    Found 32-bit register for signal <OUT_DATA<20>>.
+    Found 32-bit register for signal <OUT_DATA<21>>.
+    Found 32-bit register for signal <OUT_DATA<22>>.
+    Found 32-bit register for signal <OUT_DATA<23>>.
+    Found 32-bit register for signal <OUT_DATA<24>>.
+    Found 32-bit register for signal <OUT_DATA<25>>.
+    Found 32-bit register for signal <OUT_DATA<26>>.
+    Found 32-bit register for signal <OUT_DATA<27>>.
+    Found 32-bit register for signal <OUT_DATA<28>>.
+    Found 32-bit register for signal <OUT_DATA<29>>.
+    Found 32-bit register for signal <OUT_DATA<30>>.
+    Found 32-bit register for signal <OUT_DATA<31>>.
+    Found 32-bit register for signal <OUT_DATA<1>>.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+Unit <REG_FILE_REGISTERS> synthesized.
+
+Synthesizing Unit <REG_FILE_MUX>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_MUX.vhd".
+    Found 32-bit 32-to-1 multiplexer for signal <REG_FILE_MUX_READ_DATA> created at line 148.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <REG_FILE_MUX> synthesized.
+
+Synthesizing Unit <RAM>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd".
+WARNING:Xst:647 - Input <RW_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RW_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32x32-bit single-port RAM <Mram_RAM_DATA> for signal <RAM_DATA>.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  32 Latch(s).
+	inferred  33 Multiplexer(s).
+Unit <RAM> synthesized.
+
+Synthesizing Unit <MUX_5_BITS>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_5_BITS.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_5_BITS> synthesized.
+
+Synthesizing Unit <MUX_32_BITS>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_32_BITS.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_32_BITS> synthesized.
+
+Synthesizing Unit <ALU_CONTROL>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica7\ALU_CONTROL.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <ALU_CONTROL> synthesized.
+
+Synthesizing Unit <CONTROL_UNIT>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica7\CONTROL_UNIT.vhd".
+    Summary:
+	no macro.
+Unit <CONTROL_UNIT> synthesized.
+
+Synthesizing Unit <shift_left_32b>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\Shift_Left_32b.vhd".
+    Summary:
+	no macro.
+Unit <shift_left_32b> synthesized.
+
+Synthesizing Unit <SHIFTLEFT>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\SHIFTLEFT.vhd".
+    Summary:
+	no macro.
+Unit <SHIFTLEFT> synthesized.
+
+Synthesizing Unit <sign_extender>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\sign_extender.vhd".
+    Summary:
+	no macro.
+Unit <sign_extender> synthesized.
+
+Synthesizing Unit <add>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\add.vhd".
+    Found 32-bit adder for signal <C_Adder> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <add> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "\\vboxsvr\te2031\lab-repo\P2\ALU.vhd".
+    Found 32-bit adder for signal <ALU_A[31]_ALU_B[31]_add_6_OUT> created at line 55.
+    Found 32-bit subtractor for signal <GND_86_o_GND_86_o_sub_8_OUT<31:0>> created at line 58.
+    Found 32-bit 8-to-1 multiplexer for signal <aux_result> created at line 52.
+    Found 32-bit comparator greater for signal <PWR_23_o_ALU_A[31]_equal_2_o> created at line 48
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred  11 Multiplexer(s).
+Unit <ALU> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit single-port RAM                             : 1
+ 32x32-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 31
+ 32-bit register                                       : 31
+# Latches                                              : 32
+ 1-bit latch                                           : 32
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 53
+ 1-bit 2-to-1 multiplexer                              : 33
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 16
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <RAM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RAM_DATA> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <CLK>           | fall     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <RW_ADDRESS>    |          |
+    |     diA            | connected to signal <WRITE_DATA>    |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <RAM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ROM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_INSTRUCTION> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <READ_ADDRESS>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <INSTRUCTION>   |          |
+    -----------------------------------------------------------------------
+Unit <ROM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit single-port distributed RAM                 : 1
+ 32x32-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 992
+ Flip-Flops                                            : 992
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 21
+ 1-bit 2-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 16
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADD_PC/Madd_C_Adder_cy<5>, ADD_PC/Madd_C_Adder_cy<13>, ADD_PC/Madd_C_Adder_cy<21>, ADD_PC/Madd_C_Adder_cy<29>, ADD_PC/Madd_C_Adder_cy<2>, ADD_PC/Madd_C_Adder_cy<10>, ADD_PC/Madd_C_Adder_cy<18>, ADD_PC/Madd_C_Adder_cy<26>, DUMMY_OUT<31>, DUMMY_OUT<2>, ADDER_OUT_PC_PLUS_4_SIGNAL<31>, ADD_PC/Madd_C_Adder_cy<7>, ADD_PC/Madd_C_Adder_cy<15>, ADD_PC/Madd_C_Adder_cy<23>, ADD_PC/Madd_C_Adder_cy<4>, ADDER_OUT_PC_PLUS_4_SIGNAL<2>, ADD_PC/Madd_C_Adder_cy<12>, ADD_PC/Madd_C_Adder_cy<20>, ADD_PC/Madd_C_Adder_cy<28>, ADD_PC/Madd_C_Adder_lut<2>, ADD_PC/Madd_C_Adder_cy<9>, ADD_PC/Madd_C_Adder_cy<17>, ADD_PC/Madd_C_Adder_cy<25>, ADD_PC/Madd_C_Adder_cy<6>, ADD_PC/Madd_C_Adder_cy<14>, ADD_PC/Madd_C_Adder_cy<22>, ADD_PC/Madd_C_Adder_cy<30>, ADD_PC/Madd_C_Adder_cy<3>, ADD_PC/Madd_C_Adder_cy<11>, ADD_PC/Madd_C_Adder_cy<19>, ADD_PC/Madd_C_Adder_cy<27>, ADD_PC/Madd_C_Adder_cy<8>, ADD_PC/Madd_C_Adder_cy<16>, ADD_PC/Madd_C_Adder_cy<24>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<30>, ADDER_OUT_PC_PLUS_4_SIGNAL<30>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<29>, ADDER_OUT_PC_PLUS_4_SIGNAL<29>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<28>, ADDER_OUT_PC_PLUS_4_SIGNAL<28>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<27>, DUMMY_OUT<27>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<26>, DUMMY_OUT<26>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<25>, DUMMY_OUT<25>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<24>, DUMMY_OUT<24>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<23>, DUMMY_OUT<23>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<22>, DUMMY_OUT<22>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<21>, DUMMY_OUT<21>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<20>, ADDER_OUT_PC_PLUS_4_SIGNAL<20>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<19>, DUMMY_OUT<19>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<18>, ADDER_OUT_PC_PLUS_4_SIGNAL<18>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<17>, DUMMY_OUT<17>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<16>, DUMMY_OUT<16>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<15>, ADDER_OUT_PC_PLUS_4_SIGNAL<15>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<14>, DUMMY_OUT<14>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<13>, DUMMY_OUT<13>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<12>, DUMMY_OUT<12>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<11>, DUMMY_OUT<11>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<10>, ADDER_OUT_PC_PLUS_4_SIGNAL<10>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<9>, DUMMY_OUT<9>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<8>, ADDER_OUT_PC_PLUS_4_SIGNAL<8>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<7>, DUMMY_OUT<7>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<6>, DUMMY_OUT<6>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<5>, ADDER_OUT_PC_PLUS_4_SIGNAL<5>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<4>, ADDER_OUT_PC_PLUS_4_SIGNAL<4>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: ADDER_OUT_PC_PLUS_4_SIGNAL<3>, DUMMY_OUT<3>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<0>.
+WARNING:Xst:2170 - Unit MIPS_PROCESSOR : the following signal(s) form a combinatorial loop: DUMMY_OUT<1>.
+
+Optimizing unit <REG_FILE_REGISTERS> ...
+
+Optimizing unit <MIPS_PROCESSOR> ...
+
+Optimizing unit <RAM> ...
+
+Optimizing unit <ALU> ...
+WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_16_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_18_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_19_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_30_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_29_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_28_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_27_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_26_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_25_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_24_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_23_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_22_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_21_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_20_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_15_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_14_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_13_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_12_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_11_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_10_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_9_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_8_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_7_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_6_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_5_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_28> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_27> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_26> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_25> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_24> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_23> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_22> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_21> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_20> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_19> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_18> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_17> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_16> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_15> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_14> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_13> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_12> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_11> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_10> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_9> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_8> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_7> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_6> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_5> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_4> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_3> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_4_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
+WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_17_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MIPS_PROCESSOR, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MIPS_PROCESSOR.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 393
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 1
+#      LUT3                        : 52
+#      LUT4                        : 78
+#      LUT5                        : 39
+#      LUT6                        : 76
+#      MUXCY                       : 76
+#      MUXF7                       : 5
+#      VCC                         : 1
+#      XORCY                       : 62
+# FlipFlops/Latches                : 96
+#      FDE_1                       : 64
+#      LD                          : 32
+# RAMS                             : 32
+#      RAM32X1S                    : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              96  out of  18224     0%  
+ Number of Slice LUTs:                  280  out of   9112     3%  
+    Number used as Logic:               248  out of   9112     2%  
+    Number used as Memory:               32  out of   2176     1%  
+       Number used as RAM:               32
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    312
+   Number with an unused Flip Flop:     216  out of    312    69%  
+   Number with an unused LUT:            32  out of    312    10%  
+   Number of fully used LUT-FF pairs:    64  out of    312    20%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  33  out of    232    14%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------+----------------------------------+-------+
+Clock Signal                                              | Clock buffer(FF name)            | Load  |
+----------------------------------------------------------+----------------------------------+-------+
+MIPS_P_CLK                                                | BUFGP                            | 96    |
+ALU_OP_SIGNAL<1>(INSTRUCTION_MEMORY/Mram_INSTRUCTION261:O)| BUFG(*)(DATA_MEMORY/READ_DATA_31)| 32    |
+----------------------------------------------------------+----------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 25.741ns (Maximum Frequency: 38.848MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 62.039ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'MIPS_P_CLK'
+  Clock period: 25.741ns (frequency: 38.848MHz)
+  Total number of paths / destination ports: 3451466 / 320
+-------------------------------------------------------------------------
+Delay:               25.741ns (Levels of Logic = 29)
+  Source:            REGISTER_FILE/REGISTERS/OUT_DATA_3_5 (FF)
+  Destination:       REGISTER_FILE/REGISTERS/OUT_DATA_3_6 (FF)
+  Source Clock:      MIPS_P_CLK falling
+  Destination Clock: MIPS_P_CLK falling
+
+  Data Path: REGISTER_FILE/REGISTERS/OUT_DATA_3_5 to REGISTER_FILE/REGISTERS/OUT_DATA_3_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            1   0.447   0.684  REGISTER_FILE/REGISTERS/OUT_DATA_3_5 (REGISTER_FILE/REGISTERS/OUT_DATA_3_5)
+     LUT4:I2->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4271 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_427)
+     MUXF7:I0->O           5   0.131   0.715  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_26 (READ_DATA_2_SIGNAL<5>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2811 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT281)
+     XORCY:LI->O           2   0.136   0.721  ADD_PC/Madd_C_Adder_xor<5> (ADDER_OUT_PC_PLUS_4_SIGNAL<5>)
+     LUT3:I1->O           16   0.203   1.109  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT281 (DUMMY_OUT_5_OBUF)
+     LUT3:I1->O           63   0.203   1.881  INSTRUCTION_MEMORY/Mram_INSTRUCTION1611 (INSTRUCTION_MEMORY/Mram_INSTRUCTION161)
+     LUT5:I1->O           98   0.203   2.112  MUX_ALU/Mmux_MUX_32_BITS_OUT2621 (INSTRUCTION_MEMORY/Mram_INSTRUCTION17)
+     LUT4:I0->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4261 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_426)
+     MUXF7:I0->O          64   0.131   1.640  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_25 (READ_DATA_2_SIGNAL<4>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2711 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT271)
+     XORCY:LI->O          73   0.136   1.947  ADD_PC/Madd_C_Adder_xor<4> (ADDER_OUT_PC_PLUS_4_SIGNAL<4>)
+     LUT5:I1->O           46   0.203   1.595  INSTRUCTION_MEMORY/Mram_INSTRUCTION161 (INSTRUCTION_MEMORY/Mram_INSTRUCTION16)
+     LUT4:I2->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4251 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_425)
+     MUXF7:I0->O           4   0.131   0.684  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_24 (READ_DATA_2_SIGNAL<3>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2611 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT261)
+     XORCY:LI->O           2   0.136   0.721  ADD_PC/Madd_C_Adder_xor<3> (ADDER_OUT_PC_PLUS_4_SIGNAL<3>)
+     LUT3:I1->O           73   0.203   1.928  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT261 (DUMMY_OUT_3_OBUF)
+     LUT3:I0->O           67   0.205   1.888  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2311 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT231)
+     LUT3:I0->O           16   0.205   1.005  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT231 (DUMMY_OUT_2_OBUF)
+     LUT5:I4->O            6   0.205   0.745  REGISTER_FILE/MUX1/Mmux_REG_FILE_MUX_READ_DATA1101_1 (REGISTER_FILE/MUX1/Mmux_REG_FILE_MUX_READ_DATA1101)
+     LUT4:I3->O            1   0.205   0.000  ALU_COMP/Mmux_aux_result7_rs_lut<0> (ALU_COMP/Mmux_aux_result7_rs_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<0> (ALU_COMP/Mmux_aux_result7_rs_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<1> (ALU_COMP/Mmux_aux_result7_rs_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<2> (ALU_COMP/Mmux_aux_result7_rs_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<3> (ALU_COMP/Mmux_aux_result7_rs_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<4> (ALU_COMP/Mmux_aux_result7_rs_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<5> (ALU_COMP/Mmux_aux_result7_rs_cy<5>)
+     XORCY:CI->O          33   0.180   1.306  ALU_COMP/Mmux_aux_result7_rs_xor<6> (ALU_OUT_SIGNAL<6>)
+     LUT3:I2->O            2   0.205   0.000  MUX_DATA_MEMORY/Mmux_MUX_32_BITS_OUT291 (MUX_OUT_DATA_MEMORY_SIGNAL<6>)
+     FDE_1:D                   0.102          REGISTER_FILE/REGISTERS/OUT_DATA_2_6
+    ----------------------------------------
+    Total                     25.741ns (5.061ns logic, 20.680ns route)
+                                       (19.7% logic, 80.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'MIPS_P_CLK'
+  Total number of paths / destination ports: 18991809322 / 32
+-------------------------------------------------------------------------
+Offset:              62.039ns (Levels of Logic = 94)
+  Source:            REGISTER_FILE/REGISTERS/OUT_DATA_3_5 (FF)
+  Destination:       DUMMY_OUT<31> (PAD)
+  Source Clock:      MIPS_P_CLK falling
+
+  Data Path: REGISTER_FILE/REGISTERS/OUT_DATA_3_5 to DUMMY_OUT<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            1   0.447   0.684  REGISTER_FILE/REGISTERS/OUT_DATA_3_5 (REGISTER_FILE/REGISTERS/OUT_DATA_3_5)
+     LUT4:I2->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4271 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_427)
+     MUXF7:I0->O           5   0.131   0.715  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_26 (READ_DATA_2_SIGNAL<5>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2811 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT281)
+     XORCY:LI->O           2   0.136   0.721  ADD_PC/Madd_C_Adder_xor<5> (ADDER_OUT_PC_PLUS_4_SIGNAL<5>)
+     LUT3:I1->O           16   0.203   1.109  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT281 (DUMMY_OUT_5_OBUF)
+     LUT3:I1->O           63   0.203   1.881  INSTRUCTION_MEMORY/Mram_INSTRUCTION1611 (INSTRUCTION_MEMORY/Mram_INSTRUCTION161)
+     LUT5:I1->O           98   0.203   2.112  MUX_ALU/Mmux_MUX_32_BITS_OUT2621 (INSTRUCTION_MEMORY/Mram_INSTRUCTION17)
+     LUT4:I0->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4261 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_426)
+     MUXF7:I0->O          64   0.131   1.640  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_25 (READ_DATA_2_SIGNAL<4>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2711 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT271)
+     XORCY:LI->O          73   0.136   1.947  ADD_PC/Madd_C_Adder_xor<4> (ADDER_OUT_PC_PLUS_4_SIGNAL<4>)
+     LUT5:I1->O           46   0.203   1.595  INSTRUCTION_MEMORY/Mram_INSTRUCTION161 (INSTRUCTION_MEMORY/Mram_INSTRUCTION16)
+     LUT4:I2->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4251 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_425)
+     MUXF7:I0->O           4   0.131   0.684  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_24 (READ_DATA_2_SIGNAL<3>)
+     LUT3:I2->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2611 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT261)
+     XORCY:LI->O           2   0.136   0.721  ADD_PC/Madd_C_Adder_xor<3> (ADDER_OUT_PC_PLUS_4_SIGNAL<3>)
+     LUT3:I1->O           73   0.203   1.928  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT261 (DUMMY_OUT_3_OBUF)
+     LUT3:I0->O           67   0.205   1.888  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2311 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT231)
+     LUT3:I0->O           16   0.205   1.109  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT231 (DUMMY_OUT_2_OBUF)
+     LUT6:I4->O           52   0.203   1.789  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT110 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT110)
+     LUT4:I1->O            1   0.205   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT3011 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT301)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<7> (ADD_PC/Madd_C_Adder_cy<7>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<8> (ADDER_OUT_PC_PLUS_4_SIGNAL<8>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT3111 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT311)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<8> (ADD_PC/Madd_C_Adder_cy<8>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<9> (ADDER_OUT_PC_PLUS_4_SIGNAL<9>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT3211 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT321)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<9> (ADD_PC/Madd_C_Adder_cy<9>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<10> (ADDER_OUT_PC_PLUS_4_SIGNAL<10>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2101 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT210)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<10> (ADD_PC/Madd_C_Adder_cy<10>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<11> (ADDER_OUT_PC_PLUS_4_SIGNAL<11>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT331 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT33)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<11> (ADD_PC/Madd_C_Adder_cy<11>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<12> (ADDER_OUT_PC_PLUS_4_SIGNAL<12>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT411 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT41)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<12> (ADD_PC/Madd_C_Adder_cy<12>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<13> (ADDER_OUT_PC_PLUS_4_SIGNAL<13>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT511 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT51)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<13> (ADD_PC/Madd_C_Adder_cy<13>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<14> (ADDER_OUT_PC_PLUS_4_SIGNAL<14>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT611 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT61)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<14> (ADD_PC/Madd_C_Adder_cy<14>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<15> (ADDER_OUT_PC_PLUS_4_SIGNAL<15>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT711 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT71)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<15> (ADD_PC/Madd_C_Adder_cy<15>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<16> (ADDER_OUT_PC_PLUS_4_SIGNAL<16>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT811 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT81)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<16> (ADD_PC/Madd_C_Adder_cy<16>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<17> (ADDER_OUT_PC_PLUS_4_SIGNAL<17>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT911 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT91)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<17> (ADD_PC/Madd_C_Adder_cy<17>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<18> (ADDER_OUT_PC_PLUS_4_SIGNAL<18>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1011 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT101)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<18> (ADD_PC/Madd_C_Adder_cy<18>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<19> (ADDER_OUT_PC_PLUS_4_SIGNAL<19>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1121 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT112)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<19> (ADD_PC/Madd_C_Adder_cy<19>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<20> (ADDER_OUT_PC_PLUS_4_SIGNAL<20>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1311 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT131)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<20> (ADD_PC/Madd_C_Adder_cy<20>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<21> (ADDER_OUT_PC_PLUS_4_SIGNAL<21>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1411 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT141)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<21> (ADD_PC/Madd_C_Adder_cy<21>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<22> (ADDER_OUT_PC_PLUS_4_SIGNAL<22>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1511 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT151)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<22> (ADD_PC/Madd_C_Adder_cy<22>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<23> (ADDER_OUT_PC_PLUS_4_SIGNAL<23>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1611 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT161)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<23> (ADD_PC/Madd_C_Adder_cy<23>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<24> (ADDER_OUT_PC_PLUS_4_SIGNAL<24>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1711 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT171)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<24> (ADD_PC/Madd_C_Adder_cy<24>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<25> (ADDER_OUT_PC_PLUS_4_SIGNAL<25>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1811 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT181)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<25> (ADD_PC/Madd_C_Adder_cy<25>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<26> (ADDER_OUT_PC_PLUS_4_SIGNAL<26>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT1911 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT191)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<26> (ADD_PC/Madd_C_Adder_cy<26>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<27> (ADDER_OUT_PC_PLUS_4_SIGNAL<27>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2011 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT201)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<27> (ADD_PC/Madd_C_Adder_cy<27>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<28> (ADDER_OUT_PC_PLUS_4_SIGNAL<28>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2111 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT211)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<28> (ADD_PC/Madd_C_Adder_cy<28>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<29> (ADDER_OUT_PC_PLUS_4_SIGNAL<29>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2211 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT221)
+     MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<29> (ADD_PC/Madd_C_Adder_cy<29>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<30> (ADDER_OUT_PC_PLUS_4_SIGNAL<30>)
+     LUT4:I0->O            1   0.203   0.000  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT2411 (MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT241)
+     MUXCY:S->O            0   0.172   0.000  ADD_PC/Madd_C_Adder_cy<30> (ADD_PC/Madd_C_Adder_cy<30>)
+     XORCY:CI->O           2   0.180   0.864  ADD_PC/Madd_C_Adder_xor<31> (ADDER_OUT_PC_PLUS_4_SIGNAL<31>)
+     LUT4:I0->O            1   0.203   0.579  MUX_DATA_MEMORY_S3/Mmux_MUX_32_BITS_OUT251 (DUMMY_OUT_31_OBUF)
+     OBUF:I->O                 2.571          DUMMY_OUT_31_OBUF (DUMMY_OUT<31>)
+    ----------------------------------------
+    Total                     62.039ns (20.196ns logic, 41.843ns route)
+                                       (32.6% logic, 67.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ALU_OP_SIGNAL<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+MIPS_P_CLK     |         |         |   26.869|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS_P_CLK
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+ALU_OP_SIGNAL<1>|         |         |    1.613|         |
+MIPS_P_CLK      |         |         |   25.741|         |
+----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.54 secs
+ 
+--> 
+
+Total memory usage is 153472 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings : 1026 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
