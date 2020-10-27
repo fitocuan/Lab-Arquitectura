@@ -1,5 +1,5 @@
 ISim log file
-Running: Z:\lab-repo\P8\MIPS_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Z:/lab-repo/P8/MIPS_TB_isim_beh.wdb 
+Running: E:\P8\MIPS_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/P8/MIPS_TB_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -16,17 +16,6 @@ at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INT
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
-at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# restart
-# run 60ns
-Simulator is doing circuit initialization process.
-at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-Finished circuit initialization process.
-at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 10 ns(3), Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0

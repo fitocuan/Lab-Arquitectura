@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica4/REG_FILE_REGISTERS.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica4/REG_FILE_REGISTERS.vhd";
 
 
 
@@ -61,7 +61,7 @@ static void work_a_0848226791_3212880686_p_0(char *t0)
     char *t32;
 
 LAB0:    xsi_set_current_line(53, ng0);
-    t1 = (t0 + 3308);
+    t1 = (t0 + 3284);
     t3 = (32U != 32U);
     if (t3 == 1)
         goto LAB2;
@@ -93,9 +93,9 @@ LAB2:    xsi_size_not_matching(32U, 32U, 0);
     goto LAB3;
 
 LAB4:    xsi_set_current_line(55, ng0);
-    t2 = (t0 + 3340);
+    t2 = (t0 + 3316);
     *((int *)t2) = 1;
-    t5 = (t0 + 3344);
+    t5 = (t0 + 3320);
     *((int *)t5) = 31;
     t12 = 1;
     t13 = 31;
@@ -115,7 +115,7 @@ LAB7:    t2 = (t0 + 776U);
 LAB11:    xsi_set_current_line(56, ng0);
     t6 = (t0 + 592U);
     t7 = *((char **)t6);
-    t6 = (t0 + 3340);
+    t6 = (t0 + 3316);
     t14 = *((int *)t6);
     t15 = (t14 - 31);
     t16 = (t15 * -1);
@@ -130,23 +130,23 @@ LAB11:    xsi_set_current_line(56, ng0);
 
 LAB16:
 LAB15:
-LAB12:    t1 = (t0 + 3340);
+LAB12:    t1 = (t0 + 3316);
     t12 = *((int *)t1);
-    t2 = (t0 + 3344);
+    t2 = (t0 + 3320);
     t13 = *((int *)t2);
     if (t12 == t13)
         goto LAB13;
 
 LAB17:    t14 = (t12 + 1);
     t12 = t14;
-    t4 = (t0 + 3340);
+    t4 = (t0 + 3316);
     *((int *)t4) = t12;
     goto LAB10;
 
 LAB14:    xsi_set_current_line(57, ng0);
     t21 = (t0 + 684U);
     t22 = *((char **)t21);
-    t21 = (t0 + 3340);
+    t21 = (t0 + 3316);
     t23 = *((int *)t21);
     t24 = (t23 - 0);
     t25 = (t24 * 1);

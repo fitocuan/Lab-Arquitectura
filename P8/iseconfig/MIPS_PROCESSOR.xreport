@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-25T13:13:50</DateModified>
+  <DateModified>2020-10-27T15:32:10</DateModified>
   <ModuleName>MIPS_PROCESSOR</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>Z:/lab-repo/P8/iseconfig/MIPS_PROCESSOR.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>Z:/lab-repo/P8</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2020-10-27T15:17:48</SummaryTimeStamp>
+  <SavedFilePath>E:/P8/iseconfig/MIPS_PROCESSOR.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/P8\</ImplementationReportsDirectory>
   <DateInitialized>2020-10-25T12:54:24</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

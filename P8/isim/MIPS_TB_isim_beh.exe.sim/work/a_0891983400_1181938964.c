@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/P8/MIPS_PROCESSOR.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/P8/MIPS_PROCESSOR.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1605435078_503743352(char *, unsigned char , unsigned char );
@@ -41,16 +41,16 @@ static void work_a_0891983400_1181938964_p_0(char *t0)
     char *t10;
     char *t11;
 
-LAB0:    xsi_set_current_line(221, ng0);
+LAB0:    xsi_set_current_line(235, ng0);
 
 LAB3:    t1 = (t0 + 1328U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
-    t1 = (t0 + 2984U);
+    t1 = (t0 + 3076U);
     t4 = *((char **)t1);
     t5 = *((unsigned char *)t4);
     t6 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t3, t5);
-    t1 = (t0 + 5016);
+    t1 = (t0 + 5108);
     t7 = (t1 + 32U);
     t8 = *((char **)t7);
     t9 = (t8 + 40U);
@@ -58,7 +58,7 @@ LAB3:    t1 = (t0 + 1328U);
     *((unsigned char *)t10) = t6;
     xsi_driver_first_trans_fast(t1);
 
-LAB2:    t11 = (t0 + 4956);
+LAB2:    t11 = (t0 + 5048);
     *((int *)t11) = 1;
 
 LAB1:    return;
@@ -90,15 +90,15 @@ static void work_a_0891983400_1181938964_p_1(char *t0)
     char *t20;
     char *t21;
 
-LAB0:    xsi_set_current_line(222, ng0);
+LAB0:    xsi_set_current_line(236, ng0);
 
-LAB3:    t1 = (t0 + 3444U);
+LAB3:    t1 = (t0 + 3536U);
     t2 = *((char **)t1);
     t3 = (31 - 31);
     t4 = (t3 * 1U);
     t5 = (0 + t4);
     t1 = (t2 + t5);
-    t6 = (t0 + 3260U);
+    t6 = (t0 + 3352U);
     t7 = *((char **)t6);
     t9 = ((IEEE_P_2592010699) + 2332);
     t11 = (t10 + 0U);
@@ -113,14 +113,14 @@ LAB3:    t1 = (t0 + 3444U);
     t14 = (t14 + 1);
     t12 = (t11 + 12U);
     *((unsigned int *)t12) = t14;
-    t12 = (t0 + 11808U);
+    t12 = (t0 + 11904U);
     t6 = xsi_base_array_concat(t6, t8, t9, (char)97, t1, t10, (char)97, t7, t12, (char)101);
     t14 = (4U + 28U);
     t15 = (32U != t14);
     if (t15 == 1)
         goto LAB5;
 
-LAB6:    t16 = (t0 + 5052);
+LAB6:    t16 = (t0 + 5144);
     t17 = (t16 + 32U);
     t18 = *((char **)t17);
     t19 = (t18 + 40U);
@@ -128,7 +128,7 @@ LAB6:    t16 = (t0 + 5052);
     memcpy(t20, t6, 32U);
     xsi_driver_first_trans_fast(t16);
 
-LAB2:    t21 = (t0 + 4964);
+LAB2:    t21 = (t0 + 5056);
     *((int *)t21) = 1;
 
 LAB1:    return;
@@ -149,11 +149,11 @@ static void work_a_0891983400_1181938964_p_2(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(266, ng0);
+LAB0:    xsi_set_current_line(280, ng0);
 
 LAB3:    t1 = (t0 + 2432U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5088);
+    t1 = (t0 + 5180);
     t3 = (t1 + 32U);
     t4 = *((char **)t3);
     t5 = (t4 + 40U);
@@ -161,7 +161,7 @@ LAB3:    t1 = (t0 + 2432U);
     memcpy(t6, t2, 32U);
     xsi_driver_first_trans_fast_port(t1);
 
-LAB2:    t7 = (t0 + 4972);
+LAB2:    t7 = (t0 + 5064);
     *((int *)t7) = 1;
 
 LAB1:    return;

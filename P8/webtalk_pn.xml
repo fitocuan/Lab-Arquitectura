@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sun Oct 25 18:07:04 2020">
+<application name="pn" timeStamp="Tue Oct 27 15:32:52 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="E3DEABD9C4D4406F88383640F8F4B7E7" type="project"/>
-<property name="ProjectIteration" value="0" type="project"/>
-<property name="ProjectFile" value="Z:/lab-repo/P8/P8.xise" type="project"/>
+<property name="ProjectIteration" value="4" type="project"/>
+<property name="ProjectFile" value="E:/P8/P8.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2020-10-25T12:49:59" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -25,6 +25,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2020-10-25T12:49:59" type="design"/>
 <property name="PROP_intWbtProjectID" value="E3DEABD9C4D4406F88383640F8F4B7E7" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="4" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_selectedSimRootSourceNode_behav" value="work.MIPS_TB" type="process"/>
@@ -37,7 +38,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
-<property name="FILE_VHDL" value="17" type="source"/>
+<property name="FILE_VHDL" value="18" type="source"/>
 </section>
 </application>
 </document>
