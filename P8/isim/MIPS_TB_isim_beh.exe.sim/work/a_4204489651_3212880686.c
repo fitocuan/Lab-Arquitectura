@@ -21,81 +21,13 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica3/ROM.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica3/ROM.vhd";
 extern char *IEEE_P_1242562249;
 
 int ieee_p_1242562249_sub_1657552908_1035706684(char *, char *, char *);
 
 
 static void work_a_4204489651_3212880686_p_0(char *t0)
-{
-    char *t1;
-    unsigned char t3;
-    char *t4;
-    char *t5;
-    char *t6;
-    char *t7;
-    char *t8;
-
-LAB0:    xsi_set_current_line(48, ng0);
-
-LAB3:    t1 = (t0 + 4792);
-    t3 = (32U != 32U);
-    if (t3 == 1)
-        goto LAB5;
-
-LAB6:    t4 = (t0 + 2056);
-    t5 = (t4 + 32U);
-    t6 = *((char **)t5);
-    t7 = (t6 + 40U);
-    t8 = *((char **)t7);
-    memcpy(t8, t1, 32U);
-    xsi_driver_first_trans_delta(t4, 0U, 32U, 0LL);
-
-LAB2:
-LAB1:    return;
-LAB4:    goto LAB2;
-
-LAB5:    xsi_size_not_matching(32U, 32U, 0);
-    goto LAB6;
-
-}
-
-static void work_a_4204489651_3212880686_p_1(char *t0)
-{
-    char *t1;
-    unsigned char t3;
-    char *t4;
-    char *t5;
-    char *t6;
-    char *t7;
-    char *t8;
-
-LAB0:    xsi_set_current_line(49, ng0);
-
-LAB3:    t1 = (t0 + 4824);
-    t3 = (32U != 32U);
-    if (t3 == 1)
-        goto LAB5;
-
-LAB6:    t4 = (t0 + 2092);
-    t5 = (t4 + 32U);
-    t6 = *((char **)t5);
-    t7 = (t6 + 40U);
-    t8 = *((char **)t7);
-    memcpy(t8, t1, 32U);
-    xsi_driver_first_trans_delta(t4, 32U, 32U, 0LL);
-
-LAB2:
-LAB1:    return;
-LAB4:    goto LAB2;
-
-LAB5:    xsi_size_not_matching(32U, 32U, 0);
-    goto LAB6;
-
-}
-
-static void work_a_4204489651_3212880686_p_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -113,12 +45,12 @@ static void work_a_4204489651_3212880686_p_2(char *t0)
     char *t14;
     char *t15;
 
-LAB0:    xsi_set_current_line(54, ng0);
+LAB0:    xsi_set_current_line(67, ng0);
     t1 = (t0 + 776U);
     t2 = *((char **)t1);
     t1 = (t0 + 592U);
     t3 = *((char **)t1);
-    t1 = (t0 + 3616U);
+    t1 = (t0 + 2980U);
     t4 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t3, t1);
     t5 = (t4 / 4);
     t6 = (t5 - 0);
@@ -127,14 +59,14 @@ LAB0:    xsi_set_current_line(54, ng0);
     t8 = (32U * t7);
     t9 = (0 + t8);
     t10 = (t2 + t9);
-    t11 = (t0 + 2128);
+    t11 = (t0 + 1676);
     t12 = (t11 + 32U);
     t13 = *((char **)t12);
     t14 = (t13 + 40U);
     t15 = *((char **)t14);
     memcpy(t15, t10, 32U);
     xsi_driver_first_trans_fast_port(t11);
-    t1 = (t0 + 2012);
+    t1 = (t0 + 1632);
     *((int *)t1) = 1;
 
 LAB1:    return;
@@ -143,7 +75,7 @@ LAB1:    return;
 
 extern void work_a_4204489651_3212880686_init()
 {
-	static char *pe[] = {(void *)work_a_4204489651_3212880686_p_0,(void *)work_a_4204489651_3212880686_p_1,(void *)work_a_4204489651_3212880686_p_2};
+	static char *pe[] = {(void *)work_a_4204489651_3212880686_p_0};
 	xsi_register_didat("work_a_4204489651_3212880686", "isim/MIPS_TB_isim_beh.exe.sim/work/a_4204489651_3212880686.didat");
 	xsi_register_executes(pe);
 }

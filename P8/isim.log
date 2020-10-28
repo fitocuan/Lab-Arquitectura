@@ -1,5 +1,5 @@
 ISim log file
-Running: Z:\lab-repo\P8\MIPS_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Z:/lab-repo/P8/MIPS_TB_isim_beh.wdb 
+Running: E:\P8\MIPS_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/P8/MIPS_TB_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -18,77 +18,190 @@ at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-'
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 ERROR: Index 32 out of bound 0 to 31. 
-ERROR: In process ROM.vhd:52 
+ERROR: In process ROM.vhd:56 
  
 INFO: Simulator is stopped.
-# restart
-# run all
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 ERROR: Index 32 out of bound 0 to 31. 
-ERROR: In process ROM.vhd:52 
+ERROR: In process ROM.vhd:58 
  
 INFO: Simulator is stopped.
-# run all
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process ROM.vhd:59 
+ 
 INFO: Simulator is stopped.
-# restart
-# run 10ns
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# restart
-# run 15ns
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process ROM.vhd:59 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# run 15ns
-# restart
-# run 15ns
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process ROM.vhd:62 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# restart
-# run 12ns
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# restart
-# run 12ns
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-# restart
-# restart
-# run 12ns
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
 Simulator is doing circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /mips_tb/uut/INSTRUCTION_MEMORY/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/MUX2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mips_tb/uut/ADD_1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 Finished circuit initialization process.
 at 0 ps, Instance /mips_tb/uut/REGISTER_FILE/DECODER/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0

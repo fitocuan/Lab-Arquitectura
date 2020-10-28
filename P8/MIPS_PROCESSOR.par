@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-TEC::  Tue Oct 27 15:32:53 2020
+TEC::  Wed Oct 28 16:26:17 2020
 
 par -w -intstyle ise -ol high -mt off MIPS_PROCESSOR_map.ncd MIPS_PROCESSOR.ncd
 MIPS_PROCESSOR.pcf 
@@ -28,8 +28,8 @@ Device Utilization Summary:
 
 Slice Logic Utilization:
   Number of Slice Registers:                    30 out of  18,224    1%
-    Number used as Flip Flops:                   0
-    Number used as Latches:                     30
+    Number used as Flip Flops:                  30
+    Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
   Number of Slice LUTs:                         30 out of   9,112    1%
@@ -92,35 +92,35 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 4 secs 
-Finished initial Timing Analysis.  REAL time: 4 secs 
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
 
 Starting Router
 
 
-Phase  1  : 115 unrouted;      REAL time: 4 secs 
+Phase  1  : 115 unrouted;      REAL time: 3 secs 
 
 Phase  2  : 77 unrouted;      REAL time: 4 secs 
 
 Phase  3  : 0 unrouted;      REAL time: 4 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: MIPS_PROCESSOR.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
-Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 4 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -140,8 +140,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net MIP | SETUP       |         N/A|     1.986ns|     N/A|           0
-  S_P_CLK_BUFGP                             | HOLD        |     0.576ns|            |       0|           0
+  Autotimespec constraint for clock net MIP | SETUP       |         N/A|     2.012ns|     N/A|           0
+  S_P_CLK_BUFGP                             | HOLD        |     0.509ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -157,7 +157,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 12 secs 
+Total REAL time to PAR completion: 10 secs 
 Total CPU time to PAR completion: 4 secs 
 
 Peak Memory Usage:  195 MB

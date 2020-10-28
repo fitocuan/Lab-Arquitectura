@@ -1,0 +1,29 @@
+Command line:
+   sign_extender_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1042
+
+Wed Oct 28 15:02:14 2020
+
+
+ Elaboration Time: 0.030043 sec
+
+ Current Memory Usage: 481.038 Meg
+
+ Total Signals          : 3
+ Total Nets             : 64
+ Total Signal Drivers   : 2
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 565
+Total Line Count : 2
+
+ Total Simulation Time: 0.050072 sec
+
+ Current Memory Usage: 323.752 Meg
+
+Wed Oct 28 15:05:12 2020
+

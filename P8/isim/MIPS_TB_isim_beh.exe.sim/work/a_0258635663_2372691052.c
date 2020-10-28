@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/P8/MIPS_TB.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/P8/MIPS_TB.vhd";
 
 
 

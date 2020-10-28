@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/P8/MIPS_PROCESSOR.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/P8/MIPS_PROCESSOR.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1605435078_503743352(char *, unsigned char , unsigned char );
@@ -113,7 +113,7 @@ LAB3:    t1 = (t0 + 3536U);
     t14 = (t14 + 1);
     t12 = (t11 + 12U);
     *((unsigned int *)t12) = t14;
-    t12 = (t0 + 12084U);
+    t12 = (t0 + 11872U);
     t6 = xsi_base_array_concat(t6, t8, t9, (char)97, t1, t10, (char)97, t7, t12, (char)101);
     t14 = (4U + 28U);
     t15 = (32U != t14);

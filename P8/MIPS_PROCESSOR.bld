@@ -29,7 +29,7 @@ NGDBUILD Design Results Summary:
 Total memory usage is 101552 kilobytes
 
 Writing NGD file "MIPS_PROCESSOR.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
+Total REAL time to NGDBUILD completion:  2 sec
 Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "MIPS_PROCESSOR.bld"...

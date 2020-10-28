@@ -39,14 +39,27 @@ architecture Behavioral of ROM is
 
 type DATA_ARRAY is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 signal ROM_DATA : DATA_ARRAY :=(
+							x"00000000", -- NOP
+							x"20050004", -- ADDI $r5, $r0, 0x04
+							x"AC050001", -- sw  $r5, 0x01($r0)
+							x"8C0A0001", --LW $r10, 0x01($r0)
+							x"214B0002", -- ADDI $r11,$r10, 0x02
+							x"014B6020", -- ADD $r12, $r11, $r10
+							x"014B6822", -- SUB $r13, $r11, $r10
+							--x"00000000", --NOP 
+							x"10AA0002", --BEQ r5,r10,0x02(2)
+							x"00000000", -- NOP
+							x"00000000", -- NOP
+							x"08000004", -- J 0x04
+							--x"00A00008", --JR $r5
 							OTHERS => (OTHERS => '0')
 							);
-signal NEW_INSTRUCTION: STD_LOGIC_VECTOR(31 downto 0);
-begin
 
+begin
 -- HARDCODED VALUES FOR TESTING
-ROM_DATA(0) <= x"20050004"; --Register 5 = 0 + 4  (ADDI)
-ROM_DATA(1) <= x"AC050000"; -- sw register 5 0x00 $r0
+--ROM_DATA(1) <= x"20050004"; --Register 5 = 0 + 4  (ADDI)
+--ROM_DATA(2) <= x"AC050000"; -- sw register 5 0x01($r0)
+--ROM_DATA(3) <= x""; -- LW r10, 0x00(0x00)
 
 
 process(READ_ADDRESS, ROM_DATA)

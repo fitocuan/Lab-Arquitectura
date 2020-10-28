@@ -2,39 +2,9 @@ Command line:
    MIPS_TB_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  1056
+     -socket  1101
 
-Tue Oct 27 18:15:16 2020
+Wed Oct 28 17:31:56 2020
 
 
- Elaboration Time: 0.040058 sec
-
- Current Memory Usage: 483.508 Meg
-
- Total Signals          : 207
- Total Nets             : 7053
- Total Signal Drivers   : 49
- Total Blocks           : 29
- Total Primitive Blocks : 26
- Total Processes        : 47
- Total Traceable Variables  : 16
- Total Scalar Nets and Variables : 7555
-Total Line Count : 109
-In process ROM.vhd:52 
- 
-Total Line Count : 109
-In process ROM.vhd:52 
- 
-Total Line Count : 109
-Total Line Count : 109
-Total Line Count : 109
-Total Line Count : 109
-Total Line Count : 109
-Total Line Count : 109
-
- Total Simulation Time: 0.100144 sec
-
- Current Memory Usage: 327.27 Meg
-
-Tue Oct 27 18:35:43 2020
-
+ Elaboration Time: 0.050071 sec

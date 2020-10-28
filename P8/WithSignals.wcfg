@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/P8/MIPS_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mips_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="register_utils" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/mips_tb/mips_p_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_p_reset</obj_property>
+      <obj_property name="ObjectShortName">mips_p_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/mips_p_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_p_clk</obj_property>
+      <obj_property name="ObjectShortName">mips_p_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/INSTRUCTION_MEMORY/read_address" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">read_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/INSTRUCTION_MEMORY/instruction" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_writereg_sel" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_writereg_sel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_writereg_sel[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/REGISTERS/write_data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/REGISTERS/out_data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">out_data[0:31]</obj_property>
+      <obj_property name="ObjectShortName">out_data[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_op_code" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_op_code[5:0]</obj_property>
+      <obj_property name="ObjectShortName">control_unit_op_code[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_aluop" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_aluop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">control_unit_aluop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_reg_dest" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_reg_dest</obj_property>
+      <obj_property name="ObjectShortName">control_unit_reg_dest</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_jump" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_jump</obj_property>
+      <obj_property name="ObjectShortName">control_unit_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_branch" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_branch</obj_property>
+      <obj_property name="ObjectShortName">control_unit_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_mem_read" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_mem_read</obj_property>
+      <obj_property name="ObjectShortName">control_unit_mem_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_mem_to_reg" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_mem_to_reg</obj_property>
+      <obj_property name="ObjectShortName">control_unit_mem_to_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_mem_write" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_mem_write</obj_property>
+      <obj_property name="ObjectShortName">control_unit_mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_alu_src" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_alu_src</obj_property>
+      <obj_property name="ObjectShortName">control_unit_alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_reg_write" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">control_unit_reg_write</obj_property>
+      <obj_property name="ObjectShortName">control_unit_reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/write_data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU_COMP/alu_result" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU_COMP/alu_a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">alu_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU_COMP/alu_b" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">alu_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/ALU_COMP/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_WRITE_REGISTER/mux_5_bits_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mux_5_bits_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_5_bits_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_writereg_sel" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_writereg_sel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_writereg_sel[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_DATA_MEMORY/mux_32_bits_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mux_32_bits_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_32_bits_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DATA_MEMORY/read_data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/PC/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_JUMP/mux_32_bits_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_32_bits_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_32_bits_b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_JUMP/mux_32_bits_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_32_bits_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_32_bits_a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_JUMP/mux_32_bits_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_32_bits_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_32_bits_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
