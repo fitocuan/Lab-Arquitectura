@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: MIPS_PROCESSOR.prj
 
@@ -105,57 +105,57 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica4\REG_FILE_REGISTERS.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_REGISTERS.vhd" into library work
 Parsing package <register_utils>.
 Parsing package body <register_utils>.
 Parsing entity <REG_FILE_REGISTERS>.
 Parsing architecture <Behavioral> of entity <reg_file_registers>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica4\REG_FILE_MUX.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_MUX.vhd" into library work
 Parsing entity <REG_FILE_MUX>.
 Parsing architecture <Behavioral> of entity <reg_file_mux>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica4\REG_FILE_DECODER.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd" into library work
 Parsing entity <REG_FILE_DECODER>.
 Parsing architecture <Behavioral> of entity <reg_file_decoder>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica7\CONTROL_UNIT.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica7\CONTROL_UNIT.vhd" into library work
 Parsing entity <CONTROL_UNIT>.
 Parsing architecture <Behavioral> of entity <control_unit>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica7\ALU_CONTROL.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica7\ALU_CONTROL.vhd" into library work
 Parsing entity <ALU_CONTROL>.
 Parsing architecture <Behavioral> of entity <alu_control>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica4\REG_FILE.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE.vhd" into library work
 Parsing entity <REG_FILE>.
 Parsing architecture <structural> of entity <reg_file>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica3\ROM.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd" into library work
 Parsing entity <ROM>.
 Parsing architecture <Behavioral> of entity <rom>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica3\RAM.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd" into library work
 Parsing entity <RAM>.
 Parsing architecture <Behavioral> of entity <ram>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\sign_extender.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\sign_extender.vhd" into library work
 Parsing entity <sign_extender>.
 Parsing architecture <Behavioral> of entity <sign_extender>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\Shift_Left_32b.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\Shift_Left_32b.vhd" into library work
 Parsing entity <shift_left_32b>.
 Parsing architecture <Behavioral> of entity <shift_left_32b>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\SHIFTLEFT.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\SHIFTLEFT.vhd" into library work
 Parsing entity <SHIFTLEFT>.
 Parsing architecture <Behavioral> of entity <shiftleft>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\PROGRAM_COUNTER.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\PROGRAM_COUNTER.vhd" into library work
 Parsing entity <PROGRAM_COUNTER>.
 Parsing architecture <Behavioral> of entity <program_counter>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\MUX_5_BITS.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_5_BITS.vhd" into library work
 Parsing entity <MUX_5_BITS>.
 Parsing architecture <Behavioral> of entity <mux_5_bits>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\MUX_32_BITS.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_32_BITS.vhd" into library work
 Parsing entity <MUX_32_BITS>.
 Parsing architecture <Behavioral> of entity <mux_32_bits>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\Practica 1\add.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica 1\add.vhd" into library work
 Parsing entity <add>.
 Parsing architecture <Behavioral> of entity <add>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\P2\ALU.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\P2\ALU.vhd" into library work
 Parsing entity <ALU>.
 Parsing architecture <Behavioral> of entity <alu>.
-Parsing VHDL file "\\vboxsrv\sharedfolder\P8\MIPS_PROCESSOR.vhd" into library work
+Parsing VHDL file "\\vboxsvr\te2031\lab-repo\P8\MIPS_PROCESSOR.vhd" into library work
 Parsing entity <MIPS_PROCESSOR>.
 Parsing architecture <structural> of entity <mips_processor>.
 
@@ -166,15 +166,14 @@ Parsing architecture <structural> of entity <mips_processor>.
 Elaborating entity <MIPS_PROCESSOR> (architecture <structural>) from library <work>.
 
 Elaborating entity <PROGRAM_COUNTER> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "\\vboxsrv\sharedfolder\Practica 1\PROGRAM_COUNTER.vhd" Line 50: d should be on the sensitivity list of the process
 
 Elaborating entity <ROM> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:634 - "\\vboxsrv\sharedfolder\Practica3\ROM.vhd" Line 41: Net <ROM_DATA[2][31]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd" Line 41: Net <ROM_DATA[2][31]> does not have a driver.
 
 Elaborating entity <REG_FILE> (architecture <structural>) from library <work>.
 
 Elaborating entity <REG_FILE_DECODER> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:634 - "\\vboxsrv\sharedfolder\Practica4\REG_FILE_DECODER.vhd" Line 44: Net <initial_value[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd" Line 53: Net <initial_value[31]> does not have a driver.
 
 Elaborating entity <REG_FILE_REGISTERS> (architecture <Behavioral>) from library <work>.
 
@@ -205,51 +204,20 @@ Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <MIPS_PROCESSOR>.
-    Related source file is "\\vboxsrv\sharedfolder\P8\MIPS_PROCESSOR.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\P8\MIPS_PROCESSOR.vhd".
     Summary:
 	no macro.
 Unit <MIPS_PROCESSOR> synthesized.
 
 Synthesizing Unit <PROGRAM_COUNTER>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\PROGRAM_COUNTER.vhd".
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<30>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<29>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<28>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<26>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<25>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<24>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<22>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<20>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<18>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<17>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<16>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<12>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <SALIDA_PREV<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\PROGRAM_COUNTER.vhd".
+    Found 32-bit register for signal <Q>.
     Summary:
-	inferred  32 Latch(s).
+	inferred  32 D-type flip-flop(s).
 Unit <PROGRAM_COUNTER> synthesized.
 
 Synthesizing Unit <ROM>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica3\ROM.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica3\ROM.vhd".
 WARNING:Xst:647 - Input <READ_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <READ_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:2935 - Signal 'ROM_DATA<2>', unconnected in block 'ROM', is tied to its initial value (00000000000000000000000000000000).
@@ -288,13 +256,13 @@ WARNING:Xst:2935 - Signal 'ROM_DATA<31>', unconnected in block 'ROM', is tied to
 Unit <ROM> synthesized.
 
 Synthesizing Unit <REG_FILE>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica4\REG_FILE.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE.vhd".
     Summary:
 	no macro.
 Unit <REG_FILE> synthesized.
 
 Synthesizing Unit <REG_FILE_DECODER>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica4\REG_FILE_DECODER.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_DECODER.vhd".
 WARNING:Xst:2935 - Signal 'initial_value<31:1>', unconnected in block 'REG_FILE_DECODER', is tied to its initial value (0000000000000000000000000000000).
     Found 32-bit shifter logical left for signal <REG_FILE_DECODER_ENABLES> created at line 37
     Summary:
@@ -302,7 +270,7 @@ WARNING:Xst:2935 - Signal 'initial_value<31:1>', unconnected in block 'REG_FILE_
 Unit <REG_FILE_DECODER> synthesized.
 
 Synthesizing Unit <REG_FILE_REGISTERS>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica4\REG_FILE_REGISTERS.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_REGISTERS.vhd".
 WARNING:Xst:647 - Input <ENABLES<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <OUT_DATA<2>>.
     Found 32-bit register for signal <OUT_DATA<3>>.
@@ -340,14 +308,14 @@ WARNING:Xst:647 - Input <ENABLES<0:0>> is never used. This port will be preserve
 Unit <REG_FILE_REGISTERS> synthesized.
 
 Synthesizing Unit <REG_FILE_MUX>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica4\REG_FILE_MUX.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica4\REG_FILE_MUX.vhd".
     Found 32-bit 32-to-1 multiplexer for signal <REG_FILE_MUX_READ_DATA> created at line 148.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <REG_FILE_MUX> synthesized.
 
 Synthesizing Unit <RAM>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica3\RAM.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica3\RAM.vhd".
 WARNING:Xst:647 - Input <RW_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <RW_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32x32-bit single-port RAM <Mram_RAM_DATA> for signal <RAM_DATA>.
@@ -390,58 +358,58 @@ WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<31>>. Latches may be g
 Unit <RAM> synthesized.
 
 Synthesizing Unit <MUX_5_BITS>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\MUX_5_BITS.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_5_BITS.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX_5_BITS> synthesized.
 
 Synthesizing Unit <MUX_32_BITS>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\MUX_32_BITS.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\MUX_32_BITS.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX_32_BITS> synthesized.
 
 Synthesizing Unit <ALU_CONTROL>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica7\ALU_CONTROL.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica7\ALU_CONTROL.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <ALU_CONTROL> synthesized.
 
 Synthesizing Unit <CONTROL_UNIT>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica7\CONTROL_UNIT.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica7\CONTROL_UNIT.vhd".
     Summary:
 	no macro.
 Unit <CONTROL_UNIT> synthesized.
 
 Synthesizing Unit <shift_left_32b>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\Shift_Left_32b.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\Shift_Left_32b.vhd".
     Summary:
 	no macro.
 Unit <shift_left_32b> synthesized.
 
 Synthesizing Unit <SHIFTLEFT>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\SHIFTLEFT.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\SHIFTLEFT.vhd".
     Summary:
 	no macro.
 Unit <SHIFTLEFT> synthesized.
 
 Synthesizing Unit <sign_extender>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\sign_extender.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\sign_extender.vhd".
     Summary:
 	no macro.
 Unit <sign_extender> synthesized.
 
 Synthesizing Unit <add>.
-    Related source file is "\\vboxsrv\sharedfolder\Practica 1\add.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\Practica 1\add.vhd".
     Found 32-bit adder for signal <C_Adder> created at line 48.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <add> synthesized.
 
 Synthesizing Unit <ALU>.
-    Related source file is "\\vboxsrv\sharedfolder\P2\ALU.vhd".
+    Related source file is "\\vboxsvr\te2031\lab-repo\P2\ALU.vhd".
     Found 32-bit adder for signal <ALU_A[31]_ALU_B[31]_add_6_OUT> created at line 55.
-    Found 32-bit subtractor for signal <GND_119_o_GND_119_o_sub_8_OUT<31:0>> created at line 58.
+    Found 32-bit subtractor for signal <GND_87_o_GND_87_o_sub_8_OUT<31:0>> created at line 58.
     Found 32-bit 8-to-1 multiplexer for signal <aux_result> created at line 52.
     Found 32-bit comparator greater for signal <PWR_24_o_ALU_A[31]_equal_2_o> created at line 48
     Summary:
@@ -460,10 +428,10 @@ Macro Statistics
 # Adders/Subtractors                                   : 3
  32-bit adder                                          : 2
  32-bit addsub                                         : 1
-# Registers                                            : 31
- 32-bit register                                       : 31
-# Latches                                              : 64
- 1-bit latch                                           : 64
+# Registers                                            : 32
+ 32-bit register                                       : 32
+# Latches                                              : 32
+ 1-bit latch                                           : 32
 # Comparators                                          : 1
  32-bit comparator greater                             : 1
 # Multiplexers                                         : 53
@@ -522,8 +490,8 @@ Macro Statistics
 # Adders/Subtractors                                   : 3
  32-bit adder                                          : 2
  32-bit addsub                                         : 1
-# Registers                                            : 992
- Flip-Flops                                            : 992
+# Registers                                            : 1024
+ Flip-Flops                                            : 1024
 # Comparators                                          : 1
  32-bit comparator greater                             : 1
 # Multiplexers                                         : 21
@@ -553,8 +521,8 @@ Optimizing unit <REG_FILE_REGISTERS> ...
 Optimizing unit <RAM> ...
 
 Optimizing unit <ALU> ...
-WARNING:Xst:1293 - FF/Latch <PC/SALIDA_PREV_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PC/SALIDA_PREV_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <PC/Q_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PC/Q_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -565,7 +533,10 @@ Final Macro Processing ...
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
 =========================================================================
 
 =========================================================================
@@ -595,7 +566,7 @@ Primitive and Black Box Usage:
 #      VCC                         : 1
 #      XORCY                       : 30
 # FlipFlops/Latches                : 30
-#      LDC_1                       : 30
+#      FDC_1                       : 30
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 33
@@ -659,9 +630,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 2.241ns (Maximum Frequency: 446.179MHz)
+   Minimum period: 2.255ns (Maximum Frequency: 443.409MHz)
    Minimum input arrival time before clock: 2.915ns
-   Maximum output required time after clock: 3.685ns
+   Maximum output required time after clock: 3.634ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -670,20 +641,20 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'MIPS_P_CLK'
-  Clock period: 2.241ns (frequency: 446.179MHz)
+  Clock period: 2.255ns (frequency: 443.409MHz)
   Total number of paths / destination ports: 465 / 30
 -------------------------------------------------------------------------
-Delay:               2.241ns (Levels of Logic = 31)
-  Source:            PC/SALIDA_PREV_2 (LATCH)
-  Destination:       PC/SALIDA_PREV_31 (LATCH)
-  Source Clock:      MIPS_P_CLK rising
-  Destination Clock: MIPS_P_CLK rising
+Delay:               2.255ns (Levels of Logic = 31)
+  Source:            PC/Q_2 (FF)
+  Destination:       PC/Q_31 (FF)
+  Source Clock:      MIPS_P_CLK falling
+  Destination Clock: MIPS_P_CLK falling
 
-  Data Path: PC/SALIDA_PREV_2 to PC/SALIDA_PREV_31
+  Data Path: PC/Q_2 to PC/Q_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDC_1:G->Q            2   0.498   0.616  PC/SALIDA_PREV_2 (PC/SALIDA_PREV_2)
+     FDC_1:C->Q            2   0.447   0.616  PC/Q_2 (PC/Q_2)
      INV:I->O              1   0.206   0.000  ADD_PC/Madd_C_Adder_lut<2>_INV_0 (ADD_PC/Madd_C_Adder_lut<2>)
      MUXCY:S->O            1   0.172   0.000  ADD_PC/Madd_C_Adder_cy<2> (ADD_PC/Madd_C_Adder_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  ADD_PC/Madd_C_Adder_cy<3> (ADD_PC/Madd_C_Adder_cy<3>)
@@ -715,10 +686,10 @@ Delay:               2.241ns (Levels of Logic = 31)
      MUXCY:CI->O           1   0.019   0.000  ADD_PC/Madd_C_Adder_cy<29> (ADD_PC/Madd_C_Adder_cy<29>)
      MUXCY:CI->O           0   0.019   0.000  ADD_PC/Madd_C_Adder_cy<30> (ADD_PC/Madd_C_Adder_cy<30>)
      XORCY:CI->O           1   0.180   0.000  ADD_PC/Madd_C_Adder_xor<31> (ADDER_OUT_PC_PLUS_4_SIGNAL<31>)
-     LDC_1:D                   0.037          PC/SALIDA_PREV_31
+     FDC_1:D                   0.102          PC/Q_31
     ----------------------------------------
-    Total                      2.241ns (1.625ns logic, 0.616ns route)
-                                       (72.5% logic, 27.5% route)
+    Total                      2.255ns (1.639ns logic, 0.616ns route)
+                                       (72.7% logic, 27.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'MIPS_P_CLK'
@@ -726,15 +697,15 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'MIPS_P_CLK'
 -------------------------------------------------------------------------
 Offset:              2.915ns (Levels of Logic = 1)
   Source:            MIPS_P_RESET (PAD)
-  Destination:       PC/SALIDA_PREV_31 (LATCH)
-  Destination Clock: MIPS_P_CLK rising
+  Destination:       PC/Q_31 (FF)
+  Destination Clock: MIPS_P_CLK falling
 
-  Data Path: MIPS_P_RESET to PC/SALIDA_PREV_31
+  Data Path: MIPS_P_RESET to PC/Q_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O            30   1.222   1.263  MIPS_P_RESET_IBUF (MIPS_P_RESET_IBUF)
-     LDC_1:CLR                 0.430          PC/SALIDA_PREV_30
+     FDC_1:CLR                 0.430          PC/Q_2
     ----------------------------------------
     Total                      2.915ns (1.652ns logic, 1.263ns route)
                                        (56.7% logic, 43.3% route)
@@ -743,20 +714,20 @@ Offset:              2.915ns (Levels of Logic = 1)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'MIPS_P_CLK'
   Total number of paths / destination ports: 30 / 30
 -------------------------------------------------------------------------
-Offset:              3.685ns (Levels of Logic = 1)
-  Source:            PC/SALIDA_PREV_31 (LATCH)
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            PC/Q_31 (FF)
   Destination:       DUMMY_OUT<31> (PAD)
-  Source Clock:      MIPS_P_CLK rising
+  Source Clock:      MIPS_P_CLK falling
 
-  Data Path: PC/SALIDA_PREV_31 to DUMMY_OUT<31>
+  Data Path: PC/Q_31 to DUMMY_OUT<31>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDC_1:G->Q            2   0.498   0.616  PC/SALIDA_PREV_31 (PC/SALIDA_PREV_31)
+     FDC_1:C->Q            2   0.447   0.616  PC/Q_31 (PC/Q_31)
      OBUF:I->O                 2.571          DUMMY_OUT_31_OBUF (DUMMY_OUT<31>)
     ----------------------------------------
-    Total                      3.685ns (3.069ns logic, 0.616ns route)
-                                       (83.3% logic, 16.7% route)
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
 
 =========================================================================
 
@@ -768,20 +739,20 @@ Clock to Setup on destination clock MIPS_P_CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-MIPS_P_CLK     |    2.241|         |         |         |
+MIPS_P_CLK     |         |         |    2.255|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 13.40 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.53 secs
  
 --> 
 
-Total memory usage is 153128 kilobytes
+Total memory usage is 152448 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  108 (   0 filtered)
+Number of warnings :   75 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 

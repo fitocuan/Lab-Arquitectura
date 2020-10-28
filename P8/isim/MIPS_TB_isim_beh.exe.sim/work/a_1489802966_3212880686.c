@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica 1/SHIFTLEFT.vhd";
+static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica 1/SHIFTLEFT.vhd";
 
 
 
@@ -75,7 +75,7 @@ static void work_a_1489802966_3212880686_p_1(char *t0)
 
 LAB0:    xsi_set_current_line(45, ng0);
 
-LAB3:    t1 = (t0 + 2966);
+LAB3:    t1 = (t0 + 2986);
     t3 = (2U != 2U);
     if (t3 == 1)
         goto LAB5;

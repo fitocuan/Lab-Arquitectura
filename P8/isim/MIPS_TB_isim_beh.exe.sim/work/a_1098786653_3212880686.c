@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica 1/sign_extender.vhd";
+static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica 1/sign_extender.vhd";
 extern char *IEEE_P_2592010699;
 
 
@@ -64,7 +64,7 @@ LAB0:    xsi_set_current_line(46, ng0);
         goto LAB3;
 
 LAB4:
-LAB5:    t16 = (t0 + 3228);
+LAB5:    t16 = (t0 + 3248);
     t18 = (t0 + 1828);
     t19 = (t18 + 32U);
     t20 = *((char **)t19);
@@ -77,7 +77,7 @@ LAB2:    t23 = (t0 + 1776);
     *((int *)t23) = 1;
 
 LAB1:    return;
-LAB3:    t9 = (t0 + 3212);
+LAB3:    t9 = (t0 + 3232);
     t11 = (t0 + 1828);
     t12 = (t11 + 32U);
     t13 = *((char **)t12);
@@ -116,8 +116,8 @@ LAB3:    t1 = (t0 + 776U);
     t1 = (t0 + 592U);
     t3 = *((char **)t1);
     t5 = ((IEEE_P_2592010699) + 2332);
-    t6 = (t0 + 3156U);
-    t7 = (t0 + 3124U);
+    t6 = (t0 + 3176U);
+    t7 = (t0 + 3144U);
     t1 = xsi_base_array_concat(t1, t4, t5, (char)97, t2, t6, (char)97, t3, t7, (char)101);
     t8 = (16U + 16U);
     t9 = (32U != t8);
