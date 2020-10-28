@@ -1,22 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    15:23:13 08/22/2020 
--- Design Name: 
--- Module Name:    PROGRAM_COUNTER - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -37,18 +18,20 @@ entity PROGRAM_COUNTER is
 end PROGRAM_COUNTER;
 
 architecture Behavioral of PROGRAM_COUNTER is
-
+signal ANTERIOR : std_logic_vector(31 downto 0) := x"00000000";
 begin
 
 process (CLK, RESET)
-begin  
-   if RESET = '1' then
-      Q <= x"00000000";
-   elsif (CLK'event and CLK = '0') then
-      Q <= D;
-   end if;
-end process;
-				
-
+begin
+		if(RESET ='0') then
+			if(rising_edge(CLK)) then
+				ANTERIOR<=D;
+			else
+				ANTERIOR<=ANTERIOR;
+			end if;			
+		elsif(RESET='1') then
+			ANTERIOR<=x"00000000";
+		end if;
+	end process;
+	Q<=ANTERIOR;
 end Behavioral;
-
