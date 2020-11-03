@@ -40,9 +40,13 @@ architecture Behavioral of ALU_CONTROL is
 signal L_TYPE : STD_LOGIC_VECTOR(2 downto 0);
 signal R_TYPE : STD_LOGIC_VECTOR(2 downto 0);
 
+signal OP_AND_CONTROL_INSTRUCTION : STD_LOGIC_VECTOR (5 downto 0);
+
 begin
 
 -- VALUE 101 is DONT CARE FOR ALU --
+
+OP_AND_CONTROL_INSTRUCTION <= (ALU_CONTROL_ALUOP & "000") OR ALU_CONTROL_INSTRUC;
 
 L_TYPE <= ALU_CONTROL_ALUOP; 
 
@@ -54,7 +58,7 @@ with ALU_CONTROL_INSTRUC select
 								"111" when "101010", --SLT
 								"101" when others;   --DONT CARE (JR) 
 								
-with ALU_CONTROL_INSTRUC select
+with OP_AND_CONTROL_INSTRUCTION select
 			ALU_CONTROL_JR <= '1' when "001000", --JR
 									'0' when others;
 

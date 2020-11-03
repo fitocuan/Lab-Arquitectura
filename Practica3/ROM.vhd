@@ -39,19 +39,24 @@ architecture Behavioral of ROM is
 
 type DATA_ARRAY is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 signal ROM_DATA : DATA_ARRAY :=(
-							x"00000000", -- NOP
-							x"20050004", -- ADDI $r5, $r0, 0x04
-							x"AC050001", -- sw  $r5, 0x01($r0)
-							x"8C0A0001", --LW $r10, 0x01($r0)
-							x"214B0002", -- ADDI $r11,$r10, 0x02
-							x"014B6020", -- ADD $r12, $r11, $r10
-							x"014B6822", -- SUB $r13, $r11, $r10
-							--x"00000000", --NOP 
-							x"10AA0002", --BEQ r5,r10,0x02(2)
-							x"00000000", -- NOP
-							x"00000000", -- NOP
-							x"08000004", -- J 0x04
-							--x"00A00008", --JR $r5
+							x"00000000", 
+							x"00004020", 
+							x"8C010000", 
+							x"8C020004", 
+							x"8C030008", 
+							x"00411820", 
+							x"00412025", 
+							x"00412822", 
+							x"00413024", 
+							x"0800000A", 
+							x"21080001", 
+							x"0008382A", 
+							x"10E8FFFD", 
+							x"3C092000",
+							x"35290014",
+							x"AD280000",
+							x"8D2A0000",
+							x"00000008",
 							OTHERS => (OTHERS => '0')
 							);
 
