@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: MIPS_PROCESSOR.prj
 
@@ -578,167 +578,76 @@ Optimizing unit <PROGRAM_COUNTER> ...
 Optimizing unit <RAM> ...
 
 Optimizing unit <ALU> ...
-WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_6_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_2_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_4_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_3_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_13_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_12_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
@@ -759,108 +668,12 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGIS
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PC/ANTERIOR_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PC/ANTERIOR_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_15_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_1_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_8_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
@@ -879,27 +692,20 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGIS
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_14_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_31> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_30> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_31_29> of sequential type is unconnected in block <MIPS_PROCESSOR>.
@@ -1412,44 +1218,103 @@ WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_16_3> of sequential ty
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_16_2> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_16_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_16_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
-WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_5_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_7_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_9> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_10> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_11> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_12> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_13> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_14> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_15> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_16> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_29> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_17> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_18> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_19> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_20> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_21> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_22> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_23> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_24> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_25> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_26> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_27> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_28> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_30> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_31> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_0> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_1> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_2> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_3> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_4> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_5> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_6> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_7> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_11_8> (without init value) has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <REGISTER_FILE/REGISTERS/OUT_DATA_9_4> in Unit <MIPS_PROCESSOR> is equivalent to the following FF/Latch, which will be removed : <REGISTER_FILE/REGISTERS/OUT_DATA_9_2> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block MIPS_PROCESSOR, actual ratio is 9.
-FlipFlop PC/ANTERIOR_4 has been replicated 1 time(s)
-FlipFlop PC/ANTERIOR_5 has been replicated 1 time(s)
-FlipFlop PC/ANTERIOR_6 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block MIPS_PROCESSOR, actual ratio is 10.
 
 Final Macro Processing ...
 
@@ -1457,8 +1322,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 162
- Flip-Flops                                            : 162
+# Registers                                            : 291
+ Flip-Flops                                            : 291
 
 =========================================================================
 
@@ -1481,23 +1346,22 @@ Top Level Output File Name         : MIPS_PROCESSOR.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 780
+# BELS                             : 938
 #      GND                         : 1
 #      INV                         : 2
-#      LUT1                        : 52
-#      LUT2                        : 2
-#      LUT3                        : 4
-#      LUT4                        : 211
-#      LUT5                        : 70
-#      LUT6                        : 110
+#      LUT1                        : 29
+#      LUT3                        : 108
+#      LUT4                        : 116
+#      LUT5                        : 191
+#      LUT6                        : 158
 #      MUXCY                       : 105
-#      MUXF7                       : 66
-#      MUXF8                       : 64
+#      MUXF7                       : 103
+#      MUXF8                       : 32
 #      VCC                         : 1
 #      XORCY                       : 92
-# FlipFlops/Latches                : 194
-#      FDC                         : 33
-#      FDE_1                       : 129
+# FlipFlops/Latches                : 323
+#      FDC                         : 32
+#      FDE_1                       : 259
 #      LD                          : 32
 # RAMS                             : 32
 #      RAM32X1S                    : 32
@@ -1515,18 +1379,18 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             194  out of  18224     1%  
- Number of Slice LUTs:                  483  out of   9112     5%  
-    Number used as Logic:               451  out of   9112     4%  
+ Number of Slice Registers:             323  out of  18224     1%  
+ Number of Slice LUTs:                  636  out of   9112     6%  
+    Number used as Logic:               604  out of   9112     6%  
     Number used as Memory:               32  out of   2176     1%  
        Number used as RAM:               32
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    583
-   Number with an unused Flip Flop:     389  out of    583    66%  
-   Number with an unused LUT:           100  out of    583    17%  
-   Number of fully used LUT-FF pairs:    94  out of    583    16%  
-   Number of unique control sets:         7
+ Number of LUT Flip Flop pairs used:    841
+   Number with an unused Flip Flop:     518  out of    841    61%  
+   Number with an unused LUT:           205  out of    841    24%  
+   Number of fully used LUT-FF pairs:   118  out of    841    14%  
+   Number of unique control sets:        12
 
 IO Utilization: 
  Number of IOs:                          34
@@ -1553,12 +1417,12 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
---------------------------------------------------------------------+----------------------------------+-------+
-Clock Signal                                                        | Clock buffer(FF name)            | Load  |
---------------------------------------------------------------------+----------------------------------+-------+
-MIPS_P_CLK                                                          | BUFGP                            | 194   |
-INSTRUCTION_MEMORY/Mram_ROM_DATA(MUX_ALU/Mmux_MUX_32_BITS_OUT1101:O)| BUFG(*)(DATA_MEMORY/READ_DATA_31)| 32    |
---------------------------------------------------------------------+----------------------------------+-------+
+-----------------------------------------------------------------------------------+----------------------------------+-------+
+Clock Signal                                                                       | Clock buffer(FF name)            | Load  |
+-----------------------------------------------------------------------------------+----------------------------------+-------+
+MIPS_P_CLK                                                                         | BUFGP                            | 323   |
+DATA_MEMORY/ENABLE_READ_ENABLE_AND_69_o(DATA_MEMORY/ENABLE_READ_ENABLE_AND_69_o1:O)| BUFG(*)(DATA_MEMORY/READ_DATA_31)| 32    |
+-----------------------------------------------------------------------------------+----------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -1571,9 +1435,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 20.432ns (Maximum Frequency: 48.943MHz)
-   Minimum input arrival time before clock: 2.957ns
-   Maximum output required time after clock: 4.973ns
+   Minimum period: 20.052ns (Maximum Frequency: 49.870MHz)
+   Minimum input arrival time before clock: 2.943ns
+   Maximum output required time after clock: 4.849ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1582,27 +1446,25 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'MIPS_P_CLK'
-  Clock period: 20.432ns (frequency: 48.943MHz)
-  Total number of paths / destination ports: 17343533 / 515
+  Clock period: 20.052ns (frequency: 49.870MHz)
+  Total number of paths / destination ports: 20974248 / 774
 -------------------------------------------------------------------------
-Delay:               10.216ns (Levels of Logic = 30)
-  Source:            REGISTER_FILE/REGISTERS/OUT_DATA_13_0 (FF)
+Delay:               10.026ns (Levels of Logic = 27)
+  Source:            REGISTER_FILE/REGISTERS/OUT_DATA_3_2 (FF)
   Destination:       PC/ANTERIOR_2 (FF)
   Source Clock:      MIPS_P_CLK falling
   Destination Clock: MIPS_P_CLK rising
 
-  Data Path: REGISTER_FILE/REGISTERS/OUT_DATA_13_0 to PC/ANTERIOR_2
+  Data Path: REGISTER_FILE/REGISTERS/OUT_DATA_3_2 to PC/ANTERIOR_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE_1:C->Q            2   0.447   0.721  REGISTER_FILE/REGISTERS/OUT_DATA_13_0 (REGISTER_FILE/REGISTERS/OUT_DATA_13_0)
-     LUT4:I2->O            1   0.203   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_41 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_4)
-     MUXF7:I1->O           1   0.140   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_3_f7 (REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_3_f7)
-     MUXF8:I1->O           2   0.152   0.617  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f8 (READ_DATA_2_SIGNAL<0>)
-     LUT6:I5->O            6   0.205   0.992  MUX_ALU/Mmux_MUX_32_BITS_OUT11 (MUX_OUT_ALU_SIGNAL<0>)
-     LUT4:I0->O            1   0.203   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_lut<0> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_lut<0>)
-     MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<0> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<0>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<1> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<1>)
+     FDE_1:C->Q            2   0.447   0.845  REGISTER_FILE/REGISTERS/OUT_DATA_3_2 (REGISTER_FILE/REGISTERS/OUT_DATA_3_2)
+     LUT5:I2->O            1   0.205   0.000  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_21_G (N209)
+     MUXF7:I1->O           2   0.140   0.617  REGISTER_FILE/MUX2/Mmux_REG_FILE_MUX_READ_DATA_2_f7_21 (READ_DATA_2_SIGNAL<2>)
+     LUT3:I2->O            6   0.205   0.992  MUX_ALU/Mmux_MUX_32_BITS_OUT231 (MUX_OUT_ALU_SIGNAL<2>)
+     LUT4:I0->O            1   0.203   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_lut<1> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<1> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<1>)
      MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<2> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<2>)
      MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<3> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<3>)
      MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<4> (ALU_COMP/Mcompar_PWR_24_o_ALU_A[31]_equal_2_o_cy<4>)
@@ -1620,88 +1482,87 @@ Delay:               10.216ns (Levels of Logic = 30)
      LUT6:I5->O            1   0.205   0.000  ALU_COMP/Mmux_aux_result7_rs_lut<0> (ALU_COMP/Mmux_aux_result7_rs_lut<0>)
      MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<0> (ALU_COMP/Mmux_aux_result7_rs_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<1> (ALU_COMP/Mmux_aux_result7_rs_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<2> (ALU_COMP/Mmux_aux_result7_rs_cy<2>)
-     XORCY:CI->O          34   0.180   1.549  ALU_COMP/Mmux_aux_result7_rs_xor<3> (ALU_OUT_SIGNAL<3>)
-     LUT3:I0->O            1   0.205   0.580  MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o3_SW0 (N10)
+     XORCY:CI->O          34   0.180   1.425  ALU_COMP/Mmux_aux_result7_rs_xor<2> (ALU_OUT_SIGNAL<2>)
+     LUT3:I1->O            1   0.203   0.580  MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o3_SW0 (N46)
      LUT6:I5->O            2   0.205   0.617  MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o3 (MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o3)
-     LUT6:I5->O           16   0.205   1.005  MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o11 (MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o)
-     LUT4:I3->O            2   0.205   0.000  MUX_JR/Mmux_MUX_32_BITS_OUT271 (PC_IN_SIGNAL<4>)
-     FDC:D                     0.102          PC/ANTERIOR_4
+     LUT6:I5->O           16   0.205   1.005  MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o10 (MUX_BRANCH/GND_47_o_MUX_32_BITS_SELECT_equal_1_o)
+     LUT6:I5->O            1   0.205   0.000  MUX_JR/Mmux_MUX_32_BITS_OUT201 (PC_IN_SIGNAL<27>)
+     FDC:D                     0.102          PC/ANTERIOR_27
     ----------------------------------------
-    Total                     10.216ns (3.518ns logic, 6.698ns route)
-                                       (34.4% logic, 65.6% route)
+    Total                     10.026ns (3.328ns logic, 6.698ns route)
+                                       (33.2% logic, 66.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'MIPS_P_CLK'
-  Total number of paths / destination ports: 33 / 33
+  Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
-Offset:              2.957ns (Levels of Logic = 1)
+Offset:              2.943ns (Levels of Logic = 1)
   Source:            MIPS_P_RESET (PAD)
-  Destination:       PC/ANTERIOR_2 (FF)
+  Destination:       PC/ANTERIOR_0 (FF)
   Destination Clock: MIPS_P_CLK rising
 
-  Data Path: MIPS_P_RESET to PC/ANTERIOR_2
+  Data Path: MIPS_P_RESET to PC/ANTERIOR_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            33   1.222   1.305  MIPS_P_RESET_IBUF (MIPS_P_RESET_IBUF)
-     FDC:CLR                   0.430          PC/ANTERIOR_2
+     IBUF:I->O            32   1.222   1.291  MIPS_P_RESET_IBUF (MIPS_P_RESET_IBUF)
+     FDC:CLR                   0.430          PC/ANTERIOR_0
     ----------------------------------------
-    Total                      2.957ns (1.652ns logic, 1.305ns route)
-                                       (55.9% logic, 44.1% route)
+    Total                      2.943ns (1.652ns logic, 1.291ns route)
+                                       (56.1% logic, 43.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'MIPS_P_CLK'
-  Total number of paths / destination ports: 30 / 30
+  Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
-Offset:              4.973ns (Levels of Logic = 1)
-  Source:            PC/ANTERIOR_2 (FF)
-  Destination:       DUMMY_OUT<2> (PAD)
+Offset:              4.849ns (Levels of Logic = 1)
+  Source:            PC/ANTERIOR_6 (FF)
+  Destination:       DUMMY_OUT<6> (PAD)
   Source Clock:      MIPS_P_CLK rising
 
-  Data Path: PC/ANTERIOR_2 to DUMMY_OUT<2>
+  Data Path: PC/ANTERIOR_6 to DUMMY_OUT<6>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q            130   0.447   1.955  PC/ANTERIOR_2 (PC/ANTERIOR_2)
-     OBUF:I->O                 2.571          DUMMY_OUT_2_OBUF (DUMMY_OUT<2>)
+     FDC:C->Q             93   0.447   1.831  PC/ANTERIOR_6 (PC/ANTERIOR_6)
+     OBUF:I->O                 2.571          DUMMY_OUT_6_OBUF (DUMMY_OUT<6>)
     ----------------------------------------
-    Total                      4.973ns (3.018ns logic, 1.955ns route)
-                                       (60.7% logic, 39.3% route)
+    Total                      4.849ns (3.018ns logic, 1.831ns route)
+                                       (62.2% logic, 37.8% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock INSTRUCTION_MEMORY/Mram_ROM_DATA
+Clock to Setup on destination clock DATA_MEMORY/ENABLE_READ_ENABLE_AND_69_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-MIPS_P_CLK     |         |         |   10.996|         |
+MIPS_P_CLK     |         |         |   10.681|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock MIPS_P_CLK
---------------------------------+---------+---------+---------+---------+
-                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
---------------------------------+---------+---------+---------+---------+
-INSTRUCTION_MEMORY/Mram_ROM_DATA|         |         |    1.630|         |
-MIPS_P_CLK                      |   12.974|   10.216|    9.986|         |
---------------------------------+---------+---------+---------+---------+
+---------------------------------------+---------+---------+---------+---------+
+                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------+---------+---------+---------+---------+
+DATA_MEMORY/ENABLE_READ_ENABLE_AND_69_o|         |         |    1.613|         |
+MIPS_P_CLK                             |   12.758|   10.026|    9.915|         |
+---------------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.32 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.37 secs
  
 --> 
 
 Total memory usage is 153832 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  907 (   0 filtered)
-Number of infos    :    3 (   0 filtered)
+Number of warnings :  774 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
 

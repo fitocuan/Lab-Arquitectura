@@ -89,13 +89,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1603924012" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1603924012">
+    <transform xil_pn:end_ts="1604422917" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1604422917">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../P2/ALU.vhd"/>
       <outfile xil_pn:name="../Practica 1/MUX_32_BITS.vhd"/>
       <outfile xil_pn:name="../Practica 1/MUX_5_BITS.vhd"/>
@@ -127,14 +123,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1603924015" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1603924015">
+    <transform xil_pn:end_ts="1604422929" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1604422929">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../P2/ALU.vhd"/>
       <outfile xil_pn:name="../Practica 1/MUX_32_BITS.vhd"/>
       <outfile xil_pn:name="../Practica 1/MUX_5_BITS.vhd"/>
@@ -154,13 +145,10 @@
       <outfile xil_pn:name="MIPS_PROCESSOR.vhd"/>
       <outfile xil_pn:name="MIPS_TB.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1603924023" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6177706410996578152" xil_pn:start_ts="1603924015">
+    <transform xil_pn:end_ts="1604422939" xil_pn:in_ck="8347256999107731147" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6177706410996578152" xil_pn:start_ts="1604422929">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MIPS_TB_beh.prj"/>
       <outfile xil_pn:name="MIPS_TB_isim_beh.exe"/>
@@ -169,10 +157,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1603924023" xil_pn:in_ck="2878059621530854765" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-38818817954936235" xil_pn:start_ts="1603924023">
+    <transform xil_pn:end_ts="1604422939" xil_pn:in_ck="2878059621530854765" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-38818817954936235" xil_pn:start_ts="1604422939">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MIPS_TB_isim_beh.wdb"/>
@@ -207,7 +194,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1603927882" xil_pn:in_ck="-8902093883703734835" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6206417384948066881" xil_pn:start_ts="1603927870">
+    <transform xil_pn:end_ts="1604422899" xil_pn:in_ck="-8902093883703734835" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6206417384948066881" xil_pn:start_ts="1604422882">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>

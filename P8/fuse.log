@@ -24,7 +24,7 @@ Parsing VHDL file "E:/P8/MIPS_TB.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 79316 KB
-Fuse CPU Usage: 280 ms
+Fuse CPU Usage: 330 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -53,4 +53,4 @@ Time Resolution for simulation is 1ps.
 Compiled 41 VHDL Units
 Built simulation executable E:/P8/MIPS_TB_isim_beh.exe
 Fuse Memory Usage: 99224 KB
-Fuse CPU Usage: 480 ms
+Fuse CPU Usage: 640 ms

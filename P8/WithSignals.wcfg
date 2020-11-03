@@ -14,7 +14,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="32" />
+   <WVObjectSize size="31" />
    <wvobject fp_name="/mips_tb/mips_p_reset" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">mips_p_reset</obj_property>
       <obj_property name="ObjectShortName">mips_p_reset</obj_property>
@@ -39,15 +39,26 @@
       <obj_property name="ElementShortName">reg_file_writereg_sel[4:0]</obj_property>
       <obj_property name="ObjectShortName">reg_file_writereg_sel[4:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/REGISTERS/write_data" type="array" db_ref_id="1">
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/write_data" type="array" db_ref_id="1">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">write_data[31:0]</obj_property>
       <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/REGISTERS/out_data" type="array" db_ref_id="1">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">out_data[0:31]</obj_property>
       <obj_property name="ObjectShortName">out_data[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/mips_tb/uut/CONTROL_UNIT_COMP/control_unit_op_code" type="array" db_ref_id="1">
       <obj_property name="DisplayName">FullPathName</obj_property>
@@ -99,22 +110,6 @@
       <obj_property name="ElementShortName">control_unit_reg_write</obj_property>
       <obj_property name="ObjectShortName">control_unit_reg_write</obj_property>
    </wvobject>
-   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_1" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
-      <obj_property name="ObjectShortName">reg_file_mux_read_reg_1[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_mux_read_reg_2" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
-      <obj_property name="ObjectShortName">reg_file_mux_read_reg_2[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/write_data" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
-      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
    <wvobject fp_name="/mips_tb/uut/ALU_COMP/alu_result" type="array" db_ref_id="1">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
@@ -141,25 +136,6 @@
       <obj_property name="ElementShortName">mux_5_bits_out[4:0]</obj_property>
       <obj_property name="ObjectShortName">mux_5_bits_out[4:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/mips_tb/uut/REGISTER_FILE/reg_file_writereg_sel" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">reg_file_writereg_sel[4:0]</obj_property>
-      <obj_property name="ObjectShortName">reg_file_writereg_sel[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mips_tb/uut/MUX_DATA_MEMORY/mux_32_bits_out" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">mux_32_bits_out[31:0]</obj_property>
-      <obj_property name="ObjectShortName">mux_32_bits_out[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mips_tb/uut/DATA_MEMORY/read_data" type="array" db_ref_id="1">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
-      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mips_tb/uut/PC/q" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">q[31:0]</obj_property>
-      <obj_property name="ObjectShortName">q[31:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/mips_tb/uut/MUX_JUMP/mux_32_bits_b" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">mux_32_bits_b[31:0]</obj_property>
       <obj_property name="ObjectShortName">mux_32_bits_b[31:0]</obj_property>
@@ -174,5 +150,24 @@
       <obj_property name="ElementShortName">mux_32_bits_out[31:0]</obj_property>
       <obj_property name="ObjectShortName">mux_32_bits_out[31:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DATA_MEMORY/read_data" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/MUX_DATA_MEMORY/mux_32_bits_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mux_32_bits_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_32_bits_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DATA_MEMORY/write_enable" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/DATA_MEMORY/ram_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_data[0:31]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[0:31]</obj_property>
    </wvobject>
 </wave_config>
