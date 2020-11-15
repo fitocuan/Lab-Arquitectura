@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml MIPS_PROCESSOR.twx MIPS_PROCESSOR.ncd -o MIPS_PROCESSOR.twr
+MIPS_PROCESSOR.pcf
+
+Design file:              MIPS_PROCESSOR.ncd
+Physical constraint file: MIPS_PROCESSOR.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock MIPS_P_CLK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+MIPS_P_RESET|    1.406(R)|      SLOW  |   -0.397(R)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock MIPS_P_CLK to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+DUMMY_OUT<2> |         6.897(R)|      SLOW  |         3.559(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<3> |         6.897(R)|      SLOW  |         3.559(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<4> |         6.527(R)|      SLOW  |         3.329(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<5> |         6.527(R)|      SLOW  |         3.329(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<6> |         6.601(R)|      SLOW  |         3.406(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<7> |         6.743(R)|      SLOW  |         3.507(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<8> |         6.743(R)|      SLOW  |         3.507(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<9> |         6.743(R)|      SLOW  |         3.507(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<10>|         6.960(R)|      SLOW  |         3.583(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<11>|         6.980(R)|      SLOW  |         3.607(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<12>|         6.820(R)|      SLOW  |         3.519(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<13>|         6.820(R)|      SLOW  |         3.519(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<14>|         6.984(R)|      SLOW  |         3.615(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<15>|         7.005(R)|      SLOW  |         3.647(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<16>|         7.058(R)|      SLOW  |         3.684(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<17>|         7.004(R)|      SLOW  |         3.645(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<18>|         7.279(R)|      SLOW  |         3.890(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<19>|         7.178(R)|      SLOW  |         3.738(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<20>|         7.045(R)|      SLOW  |         3.677(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<21>|         7.072(R)|      SLOW  |         3.693(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<22>|         7.296(R)|      SLOW  |         3.843(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<23>|         7.325(R)|      SLOW  |         3.860(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<24>|         7.355(R)|      SLOW  |         3.897(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<25>|         7.355(R)|      SLOW  |         3.897(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<26>|         7.332(R)|      SLOW  |         3.859(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<27>|         7.347(R)|      SLOW  |         3.861(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<28>|         7.378(R)|      SLOW  |         3.907(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<29>|         7.378(R)|      SLOW  |         3.907(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<30>|         7.524(R)|      SLOW  |         3.914(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<31>|         7.087(R)|      SLOW  |         3.690(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock MIPS_P_CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+MIPS_P_CLK     |    1.986|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Oct 27 15:33:11 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 144 MB
+
+
+
