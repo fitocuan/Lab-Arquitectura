@@ -1,0 +1,2 @@
+vhdl isim_temp "FREQUENCY_DIVISOR.vhd"
+vhdl isim_temp "FREQUENCY_DIVISOR_TB.vhd"

@@ -1,4 +1,0 @@
-vhdl isim_temp "../Practica4/REG_FILE_REGISTERS.vhd"
-vhdl isim_temp "../Practica4/REG_FILE_MUX.vhd"
-vhdl isim_temp "../Practica4/REG_FILE_DECODER.vhd"
-vhdl isim_temp "../Practica4/REG_FILE.vhd"

@@ -60,7 +60,7 @@ ARCHITECTURE behavior OF MIPS_TB2 IS
    signal LEDS_OUT : std_logic_vector(7 downto 0);
 
    -- Clock period definitions
-   constant MIPS_P_CLK_period : time := 10 ns;
+   constant MIPS_P_CLK_period : time := 0.1 ns;
  
 BEGIN
  

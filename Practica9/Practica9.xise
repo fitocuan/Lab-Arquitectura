@@ -16,8 +16,8 @@
 
   <files>
     <file xil_pn:name="MIPS_PROCESSOR.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="17"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="17"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="18"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="18"/>
     </file>
     <file xil_pn:name="remote_sources/_/Practica3/ROM.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
@@ -90,10 +90,20 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
     </file>
     <file xil_pn:name="MIPS_TB2.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="18"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="19"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="86"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="86"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="86"/>
+    </file>
+    <file xil_pn:name="FREQUENCY_DIVISOR.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="17"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="17"/>
+    </file>
+    <file xil_pn:name="FREQUENCY_DIVISOR_TB.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="91"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="91"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="91"/>
     </file>
   </files>
 

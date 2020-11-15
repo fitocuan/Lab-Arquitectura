@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica9/remote_sources/_/Practica 1/PROGRAM_COUNTER.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica9/remote_sources/_/Practica 1/PROGRAM_COUNTER.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -93,7 +93,7 @@ LAB5:    xsi_set_current_line(28, ng0);
     goto LAB6;
 
 LAB8:    xsi_set_current_line(33, ng0);
-    t1 = (t0 + 3774);
+    t1 = (t0 + 3746);
     t7 = (t0 + 2012);
     t8 = (t7 + 32U);
     t9 = *((char **)t8);

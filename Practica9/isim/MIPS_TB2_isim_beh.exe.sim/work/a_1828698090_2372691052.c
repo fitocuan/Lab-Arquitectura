@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//VBoxSvr/TE2031/lab-repo/Practica9/MIPS_TB2.vhd";
+static const char *ng0 = "//vboxsrv/SHAREDFOLDER/Practica9/MIPS_TB2.vhd";
 
 
 
@@ -112,7 +112,7 @@ LAB0:    t1 = (t0 + 1832U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(91, ng0);
-    t2 = (t0 + 3776);
+    t2 = (t0 + 3740);
     t4 = (t0 + 2100);
     t5 = (t4 + 32U);
     t6 = *((char **)t5);

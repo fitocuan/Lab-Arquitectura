@@ -33,48 +33,64 @@ Data Sheet report:
 All values displayed in nanoseconds (ns)
 
 Setup/Hold to clock MIPS_P_CLK
-------------+------------+------------+------------+------------+------------------+--------+
-            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
-Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
-------------+------------+------------+------------+------------+------------------+--------+
-MIPS_P_RESET|    1.408(R)|      SLOW  |   -0.407(R)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
-------------+------------+------------+------------+------------+------------------+--------+
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+MIPS_P_RESET  |    3.142(R)|      SLOW  |   -0.403(R)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<0>|    0.659(F)|      FAST  |    0.025(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<1>|    0.639(F)|      FAST  |    0.034(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<2>|    0.598(F)|      FAST  |    0.101(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<3>|    0.375(F)|      FAST  |    0.437(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<4>|    0.561(F)|      FAST  |    0.181(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<5>|    0.679(F)|      FAST  |   -0.001(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<6>|    0.614(F)|      FAST  |    0.094(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+SWITCHES_IN<7>|    0.572(F)|      FAST  |    0.167(F)|      SLOW  |MIPS_P_CLK_BUFGP  |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
 
 Clock MIPS_P_CLK to Pad
 -------------+-----------------+------------+-----------------+------------+------------------+--------+
              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 -------------+-----------------+------------+-----------------+------------+------------------+--------+
-DUMMY_OUT<2> |         6.879(R)|      SLOW  |         3.522(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<3> |         6.879(R)|      SLOW  |         3.522(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<4> |         6.509(R)|      SLOW  |         3.292(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<5> |         6.509(R)|      SLOW  |         3.292(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<6> |         6.583(R)|      SLOW  |         3.369(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<7> |         6.725(R)|      SLOW  |         3.470(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<8> |         6.725(R)|      SLOW  |         3.470(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<9> |         6.725(R)|      SLOW  |         3.470(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<10>|         6.942(R)|      SLOW  |         3.546(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<11>|         6.962(R)|      SLOW  |         3.570(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<12>|         6.802(R)|      SLOW  |         3.482(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<13>|         6.802(R)|      SLOW  |         3.482(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<14>|         6.966(R)|      SLOW  |         3.578(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<15>|         6.987(R)|      SLOW  |         3.610(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<16>|         7.040(R)|      SLOW  |         3.647(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<17>|         6.986(R)|      SLOW  |         3.608(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<18>|         7.261(R)|      SLOW  |         3.853(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<19>|         7.160(R)|      SLOW  |         3.701(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<20>|         7.027(R)|      SLOW  |         3.640(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<21>|         7.054(R)|      SLOW  |         3.656(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<22>|         7.278(R)|      SLOW  |         3.806(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<23>|         7.307(R)|      SLOW  |         3.823(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<24>|         7.337(R)|      SLOW  |         3.860(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<25>|         7.337(R)|      SLOW  |         3.860(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<26>|         7.314(R)|      SLOW  |         3.822(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<27>|         7.329(R)|      SLOW  |         3.824(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<28>|         7.360(R)|      SLOW  |         3.870(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<29>|         7.360(R)|      SLOW  |         3.870(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<30>|         7.506(R)|      SLOW  |         3.877(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
-DUMMY_OUT<31>|         7.069(R)|      SLOW  |         3.653(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<2> |         7.761(R)|      SLOW  |         4.094(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<3> |         8.161(R)|      SLOW  |         4.356(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<4> |         7.689(R)|      SLOW  |         4.034(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<5> |         7.884(R)|      SLOW  |         4.181(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<6> |         7.902(R)|      SLOW  |         4.229(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<7> |         7.491(R)|      SLOW  |         3.910(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<8> |         7.330(R)|      SLOW  |         3.812(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<9> |         7.630(R)|      SLOW  |         3.985(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<10>|         6.916(R)|      SLOW  |         3.551(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<11>|         6.944(R)|      SLOW  |         3.567(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<12>|         6.741(R)|      SLOW  |         3.469(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<13>|         6.785(R)|      SLOW  |         3.480(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<14>|         6.949(R)|      SLOW  |         3.576(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<15>|         6.969(R)|      SLOW  |         3.607(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<16>|         6.968(R)|      SLOW  |         3.605(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<17>|         6.969(R)|      SLOW  |         3.606(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<18>|         6.983(R)|      SLOW  |         3.603(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<19>|         7.143(R)|      SLOW  |         3.699(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<20>|         7.057(R)|      SLOW  |         3.643(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<21>|         7.236(R)|      SLOW  |         3.763(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<22>|         7.274(R)|      SLOW  |         3.810(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<23>|         7.290(R)|      SLOW  |         3.821(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<24>|         7.631(R)|      SLOW  |         4.043(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<25>|         7.540(R)|      SLOW  |         4.007(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<26>|         7.297(R)|      SLOW  |         3.820(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<27>|         7.312(R)|      SLOW  |         3.822(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<28>|         7.835(R)|      SLOW  |         4.184(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<29>|         7.343(R)|      SLOW  |         3.868(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<30>|         7.448(R)|      SLOW  |         3.863(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+DUMMY_OUT<31>|         7.230(R)|      SLOW  |         3.748(R)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<0>  |         6.951(F)|      SLOW  |         3.548(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<1>  |         7.010(F)|      SLOW  |         3.615(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<2>  |         6.715(F)|      SLOW  |         3.406(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<3>  |         6.961(F)|      SLOW  |         3.571(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<4>  |         6.955(F)|      SLOW  |         3.552(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<5>  |         6.735(F)|      SLOW  |         3.421(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<6>  |         7.039(F)|      SLOW  |         3.602(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
+LEDS_OUT<7>  |         6.731(F)|      SLOW  |         3.436(F)|      FAST  |MIPS_P_CLK_BUFGP  |   0.000|
 -------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock MIPS_P_CLK
@@ -82,18 +98,18 @@ Clock to Setup on destination clock MIPS_P_CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-MIPS_P_CLK     |    2.012|         |         |         |
+MIPS_P_CLK     |    5.234|         |    5.408|    3.725|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Oct 28 16:26:33 2020 
+Analysis completed Sun Nov 15 13:35:22 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 144 MB
+Peak Memory Usage: 146 MB
 
 
 

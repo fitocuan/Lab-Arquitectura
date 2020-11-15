@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: MIPS_PROCESSOR.prj
 
@@ -105,57 +105,60 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_REGISTERS.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_REGISTERS.vhd" into library work
 Parsing package <register_utils>.
 Parsing package body <register_utils>.
 Parsing entity <REG_FILE_REGISTERS>.
 Parsing architecture <Behavioral> of entity <reg_file_registers>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_MUX.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_MUX.vhd" into library work
 Parsing entity <REG_FILE_MUX>.
 Parsing architecture <Behavioral> of entity <reg_file_mux>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd" into library work
 Parsing entity <REG_FILE_DECODER>.
 Parsing architecture <Behavioral> of entity <reg_file_decoder>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica7\CONTROL_UNIT.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica7\CONTROL_UNIT.vhd" into library work
 Parsing entity <CONTROL_UNIT>.
 Parsing architecture <Behavioral> of entity <control_unit>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica7\ALU_CONTROL.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica7\ALU_CONTROL.vhd" into library work
 Parsing entity <ALU_CONTROL>.
 Parsing architecture <Behavioral> of entity <alu_control>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE.vhd" into library work
 Parsing entity <REG_FILE>.
 Parsing architecture <structural> of entity <reg_file>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica3\ROM.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica3\ROM.vhd" into library work
 Parsing entity <ROM>.
 Parsing architecture <Behavioral> of entity <rom>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica3\RAM.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica3\RAM.vhd" into library work
 Parsing entity <RAM>.
 Parsing architecture <Behavioral> of entity <ram>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\sign_extender.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\sign_extender.vhd" into library work
 Parsing entity <sign_extender>.
 Parsing architecture <Behavioral> of entity <sign_extender>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\Shift_Left_32b.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\Shift_Left_32b.vhd" into library work
 Parsing entity <shift_left_32b>.
 Parsing architecture <Behavioral> of entity <shift_left_32b>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\SHIFTLEFT.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\SHIFTLEFT.vhd" into library work
 Parsing entity <SHIFTLEFT>.
 Parsing architecture <Behavioral> of entity <shiftleft>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd" into library work
 Parsing entity <PROGRAM_COUNTER>.
 Parsing architecture <Behavioral> of entity <program_counter>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\MUX_5_BITS.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\MUX_5_BITS.vhd" into library work
 Parsing entity <MUX_5_BITS>.
 Parsing architecture <Behavioral> of entity <mux_5_bits>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\MUX_32_BITS.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\MUX_32_BITS.vhd" into library work
 Parsing entity <MUX_32_BITS>.
 Parsing architecture <Behavioral> of entity <mux_32_bits>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\add.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\add.vhd" into library work
 Parsing entity <add>.
 Parsing architecture <Behavioral> of entity <add>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\P2\ALU.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\P2\ALU.vhd" into library work
 Parsing entity <ALU>.
 Parsing architecture <Behavioral> of entity <alu>.
-Parsing VHDL file "\\vboxsvr\te2031\lab-repo\Practica9\MIPS_PROCESSOR.vhd" into library work
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\FREQUENCY_DIVISOR.vhd" into library work
+Parsing entity <FREQUENCY_DIVISOR>.
+Parsing architecture <Behavioral> of entity <frequency_divisor>.
+Parsing VHDL file "\\vboxsrv\sharedfolder\Practica9\MIPS_PROCESSOR.vhd" into library work
 Parsing entity <MIPS_PROCESSOR>.
 Parsing architecture <structural> of entity <mips_processor>.
 
@@ -165,15 +168,17 @@ Parsing architecture <structural> of entity <mips_processor>.
 
 Elaborating entity <MIPS_PROCESSOR> (architecture <structural>) from library <work>.
 
+Elaborating entity <FREQUENCY_DIVISOR> (architecture <Behavioral>) from library <work>.
+
 Elaborating entity <PROGRAM_COUNTER> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd" Line 30: anterior should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd" Line 30: anterior should be on the sensitivity list of the process
 
 Elaborating entity <ROM> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <REG_FILE> (architecture <structural>) from library <work>.
 
 Elaborating entity <REG_FILE_DECODER> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:634 - "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd" Line 53: Net <initial_value[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd" Line 53: Net <initial_value[31]> does not have a driver.
 
 Elaborating entity <REG_FILE_REGISTERS> (architecture <Behavioral>) from library <work>.
 
@@ -204,13 +209,23 @@ Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <MIPS_PROCESSOR>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\MIPS_PROCESSOR.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\MIPS_PROCESSOR.vhd".
     Summary:
 	no macro.
 Unit <MIPS_PROCESSOR> synthesized.
 
+Synthesizing Unit <FREQUENCY_DIVISOR>.
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\FREQUENCY_DIVISOR.vhd".
+    Found 32-bit register for signal <aux_counter>.
+    Found 1-bit register for signal <clk_signal>.
+    Found 32-bit adder for signal <aux_counter[31]_GND_4_o_add_1_OUT> created at line 51.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+Unit <FREQUENCY_DIVISOR> synthesized.
+
 Synthesizing Unit <PROGRAM_COUNTER>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\PROGRAM_COUNTER.vhd".
     Found 1-bit register for signal <ANTERIOR<31>>.
     Found 1-bit register for signal <ANTERIOR<30>>.
     Found 1-bit register for signal <ANTERIOR<29>>.
@@ -249,7 +264,7 @@ Synthesizing Unit <PROGRAM_COUNTER>.
 Unit <PROGRAM_COUNTER> synthesized.
 
 Synthesizing Unit <ROM>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica3\ROM.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica3\ROM.vhd".
 WARNING:Xst:647 - Input <READ_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <READ_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:2999 - Signal 'ROM_DATA', unconnected in block 'ROM', is tied to its initial value.
@@ -259,13 +274,13 @@ WARNING:Xst:2999 - Signal 'ROM_DATA', unconnected in block 'ROM', is tied to its
 Unit <ROM> synthesized.
 
 Synthesizing Unit <REG_FILE>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE.vhd".
     Summary:
 	no macro.
 Unit <REG_FILE> synthesized.
 
 Synthesizing Unit <REG_FILE_DECODER>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_DECODER.vhd".
 WARNING:Xst:2935 - Signal 'initial_value<31:1>', unconnected in block 'REG_FILE_DECODER', is tied to its initial value (0000000000000000000000000000000).
     Found 32-bit shifter logical left for signal <REG_FILE_DECODER_ENABLES> created at line 37
     Summary:
@@ -273,7 +288,7 @@ WARNING:Xst:2935 - Signal 'initial_value<31:1>', unconnected in block 'REG_FILE_
 Unit <REG_FILE_DECODER> synthesized.
 
 Synthesizing Unit <REG_FILE_REGISTERS>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_REGISTERS.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_REGISTERS.vhd".
 WARNING:Xst:647 - Input <ENABLES<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <OUT_DATA<2>>.
     Found 32-bit register for signal <OUT_DATA<3>>.
@@ -311,14 +326,14 @@ WARNING:Xst:647 - Input <ENABLES<0:0>> is never used. This port will be preserve
 Unit <REG_FILE_REGISTERS> synthesized.
 
 Synthesizing Unit <REG_FILE_MUX>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica4\REG_FILE_MUX.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica4\REG_FILE_MUX.vhd".
     Found 32-bit 32-to-1 multiplexer for signal <REG_FILE_MUX_READ_DATA> created at line 148.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <REG_FILE_MUX> synthesized.
 
 Synthesizing Unit <RAM>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica3\RAM.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica3\RAM.vhd".
 WARNING:Xst:647 - Input <RW_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <RW_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <RAM_DATA<1>>.
@@ -425,60 +440,60 @@ WARNING:Xst:737 - Found 1-bit latch for signal <READ_DATA<0>>. Latches may be ge
 Unit <RAM> synthesized.
 
 Synthesizing Unit <MUX_5_BITS>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\MUX_5_BITS.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\MUX_5_BITS.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX_5_BITS> synthesized.
 
 Synthesizing Unit <MUX_32_BITS>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\MUX_32_BITS.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\MUX_32_BITS.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX_32_BITS> synthesized.
 
 Synthesizing Unit <ALU_CONTROL>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica7\ALU_CONTROL.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica7\ALU_CONTROL.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <ALU_CONTROL> synthesized.
 
 Synthesizing Unit <CONTROL_UNIT>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica7\CONTROL_UNIT.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica7\CONTROL_UNIT.vhd".
     Summary:
 	no macro.
 Unit <CONTROL_UNIT> synthesized.
 
 Synthesizing Unit <shift_left_32b>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\Shift_Left_32b.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\Shift_Left_32b.vhd".
     Summary:
 	no macro.
 Unit <shift_left_32b> synthesized.
 
 Synthesizing Unit <SHIFTLEFT>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\SHIFTLEFT.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\SHIFTLEFT.vhd".
     Summary:
 	no macro.
 Unit <SHIFTLEFT> synthesized.
 
 Synthesizing Unit <sign_extender>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\sign_extender.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\sign_extender.vhd".
     Summary:
 	no macro.
 Unit <sign_extender> synthesized.
 
 Synthesizing Unit <add>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\Practica 1\add.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\Practica 1\add.vhd".
     Found 32-bit adder for signal <C_Adder> created at line 48.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <add> synthesized.
 
 Synthesizing Unit <ALU>.
-    Related source file is "\\vboxsvr\te2031\lab-repo\Practica9\remote_sources\_\P2\ALU.vhd".
+    Related source file is "\\vboxsrv\sharedfolder\Practica9\remote_sources\_\P2\ALU.vhd".
     Found 32-bit adder for signal <ALU_A_SIGNAL[31]_ALU_B_SIGNAL[31]_add_8_OUT> created at line 61.
-    Found 32-bit subtractor for signal <GND_87_o_GND_87_o_sub_10_OUT<31:0>> created at line 64.
+    Found 32-bit subtractor for signal <GND_88_o_GND_88_o_sub_10_OUT<31:0>> created at line 64.
     Found 32-bit 8-to-1 multiplexer for signal <aux_result> created at line 58.
-    Found 32-bit comparator greater for signal <PWR_25_o_ALU_A[31]_equal_4_o> created at line 54
+    Found 32-bit comparator greater for signal <PWR_26_o_ALU_A[31]_equal_4_o> created at line 54
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   1 Comparator(s).
@@ -491,12 +506,12 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 1
  32x32-bit single-port Read Only RAM                   : 1
-# Adders/Subtractors                                   : 3
- 32-bit adder                                          : 2
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 3
  32-bit addsub                                         : 1
-# Registers                                            : 96
- 1-bit register                                        : 32
- 32-bit register                                       : 63
+# Registers                                            : 98
+ 1-bit register                                        : 33
+ 32-bit register                                       : 64
  8-bit register                                        : 1
 # Latches                                              : 32
  1-bit latch                                           : 32
@@ -519,6 +534,10 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+
+Synthesizing (advanced) Unit <FREQUENCY_DIVISOR>.
+The following registers are absorbed into counter <aux_counter>: 1 register on signal <aux_counter>.
+Unit <FREQUENCY_DIVISOR> synthesized (advanced).
 
 Synthesizing (advanced) Unit <ROM>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ROM_DATA> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -543,8 +562,10 @@ Macro Statistics
 # Adders/Subtractors                                   : 3
  32-bit adder                                          : 2
  32-bit addsub                                         : 1
-# Registers                                            : 2056
- Flip-Flops                                            : 2056
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2057
+ Flip-Flops                                            : 2057
 # Comparators                                          : 1
  32-bit comparator greater                             : 1
 # Multiplexers                                         : 109
@@ -2407,245 +2428,245 @@ WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_2_2> of sequential typ
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_2_1> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:2677 - Node <REGISTER_FILE/REGISTERS/OUT_DATA_2_0> of sequential type is unconnected in block <MIPS_PROCESSOR>.
 WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_12_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_11_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_10_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_16_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_15_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_14_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_13_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_3_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_2_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_4_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_9_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_8_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_7_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_6_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_5_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_27_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_26_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_25_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_31_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_30_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_29_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_28_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_19_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_18_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_17_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_24_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_23_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_22_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_21_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <DATA_MEMORY/RAM_DATA_20_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_12_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_11_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_10_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_16_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_15_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_14_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_13_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_3_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_2_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_4_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_9_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_8_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_7_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_6_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_5_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_27_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_26_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_25_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_31_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_30_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_29_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_28_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_19_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_18_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_17_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_24_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_23_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_22_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_5> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_4> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_3> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_2> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_1> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_21_0> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_7> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <DATA_MEMORY/RAM_DATA_20_6> has a constant value of 0 in block <MIPS_PROCESSOR>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -2662,8 +2683,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 71
- Flip-Flops                                            : 71
+# Registers                                            : 104
+ Flip-Flops                                            : 104
 
 =========================================================================
 
@@ -2686,22 +2707,26 @@ Top Level Output File Name         : MIPS_PROCESSOR.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 225
+# BELS                             : 328
 #      GND                         : 1
-#      INV                         : 2
-#      LUT1                        : 29
+#      INV                         : 3
+#      LUT1                        : 60
+#      LUT2                        : 2
 #      LUT3                        : 25
 #      LUT5                        : 14
-#      LUT6                        : 56
-#      MUXCY                       : 51
+#      LUT6                        : 62
+#      MUXCY                       : 82
 #      MUXF7                       : 8
 #      VCC                         : 1
-#      XORCY                       : 38
-# FlipFlops/Latches                : 79
+#      XORCY                       : 70
+# FlipFlops/Latches                : 112
+#      FD                          : 1
 #      FDC                         : 39
 #      FDE_1                       : 32
+#      FDR                         : 32
 #      LD                          : 8
-# Clock Buffers                    : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 49
 #      IBUF                        : 9
@@ -2714,23 +2739,23 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              79  out of  18224     0%  
- Number of Slice LUTs:                  126  out of   9112     1%  
-    Number used as Logic:               126  out of   9112     1%  
+ Number of Slice Registers:             112  out of  18224     0%  
+ Number of Slice LUTs:                  166  out of   9112     1%  
+    Number used as Logic:               166  out of   9112     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    151
-   Number with an unused Flip Flop:      72  out of    151    47%  
-   Number with an unused LUT:            25  out of    151    16%  
-   Number of fully used LUT-FF pairs:    54  out of    151    35%  
-   Number of unique control sets:         5
+ Number of LUT Flip Flop pairs used:    191
+   Number with an unused Flip Flop:      79  out of    191    41%  
+   Number with an unused LUT:            25  out of    191    13%  
+   Number of fully used LUT-FF pairs:    87  out of    191    45%  
+   Number of unique control sets:         7
 
 IO Utilization: 
  Number of IOs:                          50
  Number of bonded IOBs:                  50  out of    232    21%  
 
 Specific Feature Utilization:
- Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
 
 ---------------------------
 Partition Resource Summary:
@@ -2753,8 +2778,9 @@ Clock Information:
 -------------------------------------------------------------------------------------+---------------------------------+-------+
 Clock Signal                                                                         | Clock buffer(FF name)           | Load  |
 -------------------------------------------------------------------------------------+---------------------------------+-------+
+MIPS_P_CLK                                                                           | BUFGP                           | 33    |
 DATA_MEMORY/ENABLE_READ_ENABLE_AND_131_o(DATA_MEMORY/ENABLE_READ_ENABLE_AND_131_o1:O)| NONE(*)(DATA_MEMORY/READ_DATA_0)| 8     |
-MIPS_P_CLK                                                                           | BUFGP                           | 71    |
+FREQUENCY_DIV_1MHZ/clk_signal                                                        | BUFG                            | 71    |
 -------------------------------------------------------------------------------------+---------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -2780,14 +2806,37 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'MIPS_P_CLK'
+  Clock period: 4.513ns (frequency: 221.558MHz)
+  Total number of paths / destination ports: 1585 / 65
+-------------------------------------------------------------------------
+Delay:               4.513ns (Levels of Logic = 2)
+  Source:            FREQUENCY_DIV_1MHZ/aux_counter_3 (FF)
+  Destination:       FREQUENCY_DIV_1MHZ/aux_counter_0 (FF)
+  Source Clock:      MIPS_P_CLK rising
+  Destination Clock: MIPS_P_CLK rising
+
+  Data Path: FREQUENCY_DIV_1MHZ/aux_counter_3 to FREQUENCY_DIV_1MHZ/aux_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.981  FREQUENCY_DIV_1MHZ/aux_counter_3 (FREQUENCY_DIV_1MHZ/aux_counter_3)
+     LUT6:I0->O            1   0.203   0.944  FREQUENCY_DIV_1MHZ/GND_4_o_aux_counter[31]_equal_1_o<31>1 (FREQUENCY_DIV_1MHZ/GND_4_o_aux_counter[31]_equal_1_o<31>)
+     LUT6:I0->O           33   0.203   1.305  FREQUENCY_DIV_1MHZ/GND_4_o_aux_counter[31]_equal_1_o<31>7 (FREQUENCY_DIV_1MHZ/GND_4_o_aux_counter[31]_equal_1_o)
+     FDR:R                     0.430          FREQUENCY_DIV_1MHZ/aux_counter_0
+    ----------------------------------------
+    Total                      4.513ns (1.283ns logic, 3.230ns route)
+                                       (28.4% logic, 71.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FREQUENCY_DIV_1MHZ/clk_signal'
   Clock period: 11.321ns (frequency: 88.330MHz)
   Total number of paths / destination ports: 3139 / 95
 -------------------------------------------------------------------------
 Delay:               5.661ns (Levels of Logic = 25)
   Source:            PC/ANTERIOR_6_1 (FF)
   Destination:       DATA_MEMORY/RAM_DATA_0_7 (FF)
-  Source Clock:      MIPS_P_CLK rising
-  Destination Clock: MIPS_P_CLK falling
+  Source Clock:      FREQUENCY_DIV_1MHZ/clk_signal rising
+  Destination Clock: FREQUENCY_DIV_1MHZ/clk_signal falling
 
   Data Path: PC/ANTERIOR_6_1 to DATA_MEMORY/RAM_DATA_0_7
                                 Gate     Net
@@ -2795,21 +2844,21 @@ Delay:               5.661ns (Levels of Logic = 25)
     ----------------------------------------  ------------
      FDC:C->Q              1   0.447   0.924  PC/ANTERIOR_6_1 (PC/ANTERIOR_6_1)
      LUT5:I0->O            1   0.203   0.000  MUX_DATA_MEMORY/Mmux_MUX_32_BITS_OUT1101_1 (MUX_DATA_MEMORY/Mmux_MUX_32_BITS_OUT1101)
-     MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<1> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<2> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<3> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<4> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<5> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<6> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<7> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<7>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<8> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<8>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<9> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<9>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<10> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<10>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<11> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<11>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<12> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<12>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<13> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<13>)
-     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<14> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<14>)
-     MUXCY:CI->O           2   0.213   0.617  ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<15> (ALU_COMP/Mcompar_PWR_25_o_ALU_A[31]_equal_4_o_cy<15>)
+     MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<1> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<2> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<3> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<4> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<5> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<6> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<7> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<8> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<9> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<10> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<11> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<12> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<13> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<14> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<14>)
+     MUXCY:CI->O           2   0.213   0.617  ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<15> (ALU_COMP/Mcompar_PWR_26_o_ALU_A[31]_equal_4_o_cy<15>)
      LUT6:I5->O            1   0.205   0.000  ALU_COMP/Mmux_aux_result7_rs_lut<0> (ALU_COMP/Mmux_aux_result7_rs_lut<0>)
      MUXCY:S->O            1   0.172   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<0> (ALU_COMP/Mmux_aux_result7_rs_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  ALU_COMP/Mmux_aux_result7_rs_cy<1> (ALU_COMP/Mmux_aux_result7_rs_cy<1>)
@@ -2825,13 +2874,13 @@ Delay:               5.661ns (Levels of Logic = 25)
                                        (43.5% logic, 56.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'MIPS_P_CLK'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FREQUENCY_DIV_1MHZ/clk_signal'
   Total number of paths / destination ports: 47 / 47
 -------------------------------------------------------------------------
 Offset:              3.043ns (Levels of Logic = 1)
   Source:            MIPS_P_RESET (PAD)
   Destination:       PC/ANTERIOR_2 (FF)
-  Destination Clock: MIPS_P_CLK rising
+  Destination Clock: FREQUENCY_DIV_1MHZ/clk_signal rising
 
   Data Path: MIPS_P_RESET to PC/ANTERIOR_2
                                 Gate     Net
@@ -2844,13 +2893,13 @@ Offset:              3.043ns (Levels of Logic = 1)
                                        (54.3% logic, 45.7% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'MIPS_P_CLK'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FREQUENCY_DIV_1MHZ/clk_signal'
   Total number of paths / destination ports: 38 / 38
 -------------------------------------------------------------------------
 Offset:              4.598ns (Levels of Logic = 1)
   Source:            PC/ANTERIOR_2 (FF)
   Destination:       DUMMY_OUT<2> (PAD)
-  Source Clock:      MIPS_P_CLK rising
+  Source Clock:      FREQUENCY_DIV_1MHZ/clk_signal rising
 
   Data Path: PC/ANTERIOR_2 to DUMMY_OUT<2>
                                 Gate     Net
@@ -2868,31 +2917,39 @@ Cross Clock Domains Report:
 --------------------------
 
 Clock to Setup on destination clock DATA_MEMORY/ENABLE_READ_ENABLE_AND_131_o
----------------+---------+---------+---------+---------+
-               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
----------------+---------+---------+---------+---------+
-MIPS_P_CLK     |         |         |    6.106|         |
----------------+---------+---------+---------+---------+
+-----------------------------+---------+---------+---------+---------+
+                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------+---------+---------+---------+---------+
+FREQUENCY_DIV_1MHZ/clk_signal|         |         |    6.106|         |
+-----------------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock MIPS_P_CLK
+Clock to Setup on destination clock FREQUENCY_DIV_1MHZ/clk_signal
 ----------------------------------------+---------+---------+---------+---------+
                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------------------+---------+---------+---------+---------+
 DATA_MEMORY/ENABLE_READ_ENABLE_AND_131_o|         |         |    1.487|         |
-MIPS_P_CLK                              |    4.366|         |    5.661|         |
+FREQUENCY_DIV_1MHZ/clk_signal           |    4.366|         |    5.661|         |
 ----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS_P_CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+MIPS_P_CLK     |    4.513|         |         |         |
+---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 14.27 secs
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 16.87 secs
  
 --> 
 
-Total memory usage is 155200 kilobytes
+Total memory usage is 154920 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 2060 (   0 filtered)

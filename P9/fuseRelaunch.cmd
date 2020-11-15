@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "Z:/lab-repo/P9/MIPS_P9_isim_beh.exe" -prj "Z:/lab-repo/P9/MIPS_P9_beh.prj" "work.MIPS_P9" 
